@@ -1,7 +1,0 @@
-oi
-1
-Nome: João Silva
-Pedido: 2 pizzas grande
-Endereço: Rua das Flores, 123
-Pagamento: 1
-sair

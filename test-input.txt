@@ -1,7 +1,0 @@
-oi
-2
-João Silva
-5
-Rua das Flores 123
-SIM
-sair
