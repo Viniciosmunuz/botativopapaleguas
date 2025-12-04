@@ -85,11 +85,15 @@ const RESPONSES = {
     
     AGUARDANDO_PAGAMENTO: '*Como você prefere pagar?*\n\n1️⃣ Pix\n2️⃣ Dinheiro\n3️⃣ Cartão na entrega',
     
-    PEDIDO_TUDO_JUNTO: 'Por favor, envie seu pedido com os seguintes dados:\n\n*📝 Formato:*\nNome: Seu Nome Completo\nPedido: O que você quer comer\nEndereço: Rua, número, bairro\nPagamento: 1 (Pix) / 2 (Dinheiro) / 3 (Cartão)',    PEDIDO_CONFIRMACAO: (nome, pedido, endereco) => 
+    PEDIDO_TUDO_JUNTO: '📝 *Envie seu pedido:*\n\n✍️ Inclua o máximo de informações que puder:\n• Seu nome\n• O que deseja pedir\n• Endereço de entrega\n• Forma de pagamento (Pix, Dinheiro ou Cartão)\n\n💡 Pode enviar de qualquer jeito! Um atendente entrará em contato para confirmar.',
+    
+    PEDIDO_CONFIRMACAO: (nome, pedido, endereco) => 
         `✅ *RESUMO DO PEDIDO*\n\n👤 Nome: ${nome}\n🍽️ Pedido: ${pedido}\n📍 Endereço: ${endereco}\n💰 Taxa: R$ 3,00\n\nTudo certo? Digite *SIM* ou *NÃO*`,
     
     PEDIDO_CONFIRMADO: (nome, pedido, endereco, pagamento) => 
         `✅ *Pedido Confirmado!*\n\n👤 ${nome}\n🍽️ ${pedido}\n📍 ${endereco}\n💳 Pagamento: ${pagamento}\n\n⏳ *Um atendente entrará em contato em breve para:*\n• Confirmar seu pedido\n• Informar o valor total\n• Informar o tempo de entrega\n\nObrigado por escolher PAPALEGUAS! 🍽️`,
+    
+    PEDIDO_EM_PROCESSO: '⏳ *Pedido Enviado com Sucesso!*\n\nUm atendente entrará em contato em breve para:\n✅ Confirmar os detalhes\n💰 Informar o valor total + taxa de entrega\n🚚 Informar o tempo de entrega\n\nObrigado por escolher PAPALEGUAS! 🍽️',
     
     // Aviso para o dono
     PEDIDO_AVISO_DONO: (nome, numeroCliente, pedido, endereco) => 
@@ -188,15 +192,16 @@ client.on('message', async (msg) => {
     }
 
     if (state === 'AGUARDANDO_DADOS_COMPLETOS') {
-      // Aceitar mensagem em qualquer formato
+      // Aceitar mensagem em qualquer formato - sem validação obrigatória
       const pedido = body.trim();
+      const numeroCliente = from.replace('@c.us', '');
 
-      // Enviar diretamente ao dono
-      const ownerMessage = `🚨 *NOVO PEDIDO* 🚨\n📱 Cliente: https://wa.me/${from.replace('@c.us', '')}\n📝 Pedido:\n${pedido}`;
+      // Enviar diretamente ao dono com os dados recebidos
+      const ownerMessage = `🚨 *NOVO PEDIDO* 🚨\n📱 Cliente: https://wa.me/${numeroCliente}\n📝 Pedido:\n${pedido}`;
       await client.sendMessage(ownerNumber, ownerMessage);
 
-      // Confirmar ao cliente que o pedido foi enviado
-      await client.sendMessage(from, '✅ Seu pedido foi enviado com sucesso! Por favor, inclua um ponto de referência no endereço, se necessário. Um atendente entrará em contato em breve.');
+      // Confirmar ao cliente que o pedido foi enviado - mensagem de pedido em processo
+      await client.sendMessage(from, RESPONSES.PEDIDO_EM_PROCESSO);
 
       // Finalizar estado
       userStages[from] = 'PEDIDO_CONFIRMADO';
