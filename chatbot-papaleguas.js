@@ -23,8 +23,12 @@ const client = new Client({
 const userStages = {};
 // Armazena dados temporários do pedido (nome, pedido, endereço)
 const userData = {};
+// Armazena usuários em modo atendimento (para ignorar bot)
+const userInAttendance = {};
 // Tempo de inatividade antes de resetar a conversa (30 minutos)
 const INACTIVITY_TIMEOUT = 30 * 60 * 1000;
+// Tempo para ignorar cliente após pedido/atendimento (15 minutos)
+const ATTENDANCE_TIMEOUT = 15 * 60 * 1000;
 // Número do proprietário para receber notificações de pedidos
 const ownerNumber = process.env.OWNER_NUMBER || '5592999130838@c.us';
 
@@ -124,6 +128,24 @@ client.on('message', async (msg) => {
 
     console.log(`\n📨 Mensagem recebida de ${from}: "${body}"`);
 
+    // 🔇 VERIFICAR SE ESTÁ EM ATENDIMENTO - IGNORAR BOT
+    if (userInAttendance[from]) {
+        const now = Date.now();
+        const timeInAttendance = now - userInAttendance[from].startTime;
+        
+        // Se passou o tempo de atendimento, liberar cliente
+        if (timeInAttendance > ATTENDANCE_TIMEOUT) {
+            console.log(`✅ Cliente ${from} liberado do atendimento`);
+            delete userInAttendance[from];
+            delete userStages[from];
+            delete userData[from];
+        } else {
+            // Ainda em atendimento - IGNORAR TODAS AS MENSAGENS DO BOT
+            console.log(`🔇 Cliente ${from} em atendimento - ignorando mensagem`);
+            return;
+        }
+    }
+
     let state = userStages[from] || null;
     const now = Date.now();
 
@@ -173,7 +195,10 @@ client.on('message', async (msg) => {
         const numeroCliente = from.replace('@c.us', '');
         await client.sendMessage(ownerNumber, RESPONSES.SUPORTE_AVISO_DONO(nomeCliente, numeroCliente));
         await client.sendMessage(from, RESPONSES.SUPORTE_INICIO);
-        userStages[from] = 'SUPORTE';
+        
+        // 🔇 MARCAR CLIENTE EM ATENDIMENTO - IGNORAR BOT POR 15 MIN
+        userInAttendance[from] = { startTime: Date.now() };
+        delete userStages[from];
         return;
       }
       await client.sendMessage(from, RESPONSES.RESPOSTA_PADRAO);
@@ -225,20 +250,11 @@ client.on('message', async (msg) => {
       // Confirmar ao cliente
       await client.sendMessage(from, RESPONSES.PEDIDO_EM_PROCESSO);
       
-      userStages[from] = 'PEDIDO_CONFIRMADO';
+      // 🔇 MARCAR CLIENTE EM ATENDIMENTO - IGNORAR BOT POR 15 MIN
+      userInAttendance[from] = { startTime: Date.now() };
+      delete userStages[from];
+      delete userData[from];
       return;
-    }
-
-    // Estado final: pedido já foi confirmado
-    if (state === 'PEDIDO_CONFIRMADO') {
-        if (isInitialTrigger(body)) {
-            await client.sendMessage(from, RESPONSES.BOAS_VINDAS);
-            userStages[from] = 'MENU_PRINCIPAL';
-            delete userData[from];
-        } else {
-            await client.sendMessage(from, '✅ Seu pedido está sendo processado! Um atendente entrará em contato em breve.');
-        }
-        return;
     }
 
     // Resposta padrão se não encaixar em nenhum estado
