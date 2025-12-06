@@ -5,19 +5,25 @@ RUN apk add --no-cache \
     chromium \
     nss \
     freetype \
+    freetype-dev \
+    harfbuzz \
     ca-certificates \
-    ttf-dejavu
+    ttf-dejavu \
+    dumb-init
 
 WORKDIR /app
+
+ENV NODE_ENV=production
 
 # Copiar package.json
 COPY package.json ./
 
 # Instalar dependências npm
-RUN npm install --legacy-peer-deps
+RUN npm install --legacy-peer-deps --omit=dev
 
 # Copiar código da aplicação
 COPY . .
 
-# Comando para iniciar a aplicação
+# Usar dumb-init para iniciar o processo
+ENTRYPOINT ["dumb-init", "--"]
 CMD ["npm", "start"]

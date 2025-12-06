@@ -20,10 +20,9 @@ const client = new Client({
             '--no-sandbox',
             '--disable-setuid-sandbox',
             '--disable-dev-shm-usage',
-            '--single-process',
-            '--no-first-run',
-            '--no-new-window',
-            '--disable-extensions'
+            '--disable-gpu',
+            '--disable-extensions',
+            '--disable-component-extensions-with-background-pages'
         ]
     }
 });
