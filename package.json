@@ -8,10 +8,17 @@
     "dev": "node chatbot-papaleguas.js",
     "test": "node teste-novo.js"
   },
-  "keywords": ["whatsapp", "bot", "restaurant", "papaleguas"],
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "restaurant",
+    "papaleguas"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.13.2",
     "dotenv": "^17.2.3",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "1.33.2"

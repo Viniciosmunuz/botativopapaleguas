@@ -83,21 +83,19 @@ const RESPONSES = {
     CARDAPIO_MSG: (link) => `📋 *CARDÁPIO COMPLETO*\n\n👉 ${link}\n\nDeseja fazer um pedido? Digite *2*`,
     HORARIO_FUNCIONAMENTO: '⏰ *HORÁRIO DE FUNCIONAMENTO*\n• Todos os dias: 5:30 - 23:30\n\n💰 Taxa de Entrega: R$ 3,00',
     
-    // Fluxo de pedido
-    AGUARDANDO_NOME: 'Qual é o seu *Nome Completo*?',
-    AGUARDANDO_PEDIDO: (nome) => `Prazer, ${nome}! 🍴\n\n*O que você gostaria de pedir?*`,
+    // Fluxo de pedido - removido pedido de nome
     
-    AGUARDANDO_ENDERECO: '*Seu Endereço de Entrega?*\n\n(Rua, número, bairro)',
+    AGUARDANDO_ENDERECO: '*Seu Endereço de Entrega?*\n\n(Rua, número)',
     
     AGUARDANDO_PAGAMENTO: '*Como você prefere pagar?*\n\n1️⃣ Pix\n2️⃣ Dinheiro\n3️⃣ Cartão na entrega',
     
-    PEDIDO_TUDO_JUNTO: 'Envie seu pedido com as informações abaixo:\n\n📝 *Nome:* Seu nome completo\n🍽️ *Pedido:* O que você quer\n📍 *Endereço:* Rua, número, bairro\n💳 *Pagamento:* Pix / Dinheiro / Cartão\n\n(Pode enviar tudo junto em uma mensagem!)',
+    PEDIDO_TUDO_JUNTO: '⚠️ *Envie seu pedido com as informações abaixo em UMA MENSAGEM só:*\n\n🍽️ Pedido: O que você quer\n📍 Endereço: Rua, número\n🏘️ Ponto de Referência: (ex: perto da farmácia)\n💳 Pagamento: Pix / Dinheiro / Cartão\n\n(Envie tudo junto!)',
     
-    PEDIDO_CONFIRMACAO: (nome, pedido, endereco) => 
-        `✅ *RESUMO DO PEDIDO*\n\n👤 Nome: ${nome}\n🍽️ Pedido: ${pedido}\n📍 Endereço: ${endereco}\n💰 Taxa: R$ 3,00\n\nTudo certo? Digite *SIM* ou *NÃO*`,
+    PEDIDO_CONFIRMACAO: (mensagem) => 
+        `⚠️ *CONFIRME SEU PEDIDO*\n\n${mensagem}\n\n☝️ Está correto? Digite *SIM* para confirmar ou *NÃO* para enviar novamente.`,
     
-    PEDIDO_CONFIRMADO: (nome, pedido, endereco, pagamento) => 
-        `✅ *Pedido Confirmado!*\n\n👤 ${nome}\n🍽️ ${pedido}\n📍 ${endereco}\n💳 Pagamento: ${pagamento}\n\n⏳ *Um atendente entrará em contato em breve para:*\n• Confirmar seu pedido\n• Informar o valor total\n• Informar o tempo de entrega\n\nObrigado por escolher PAPALEGUAS! 🍽️`,
+    PEDIDO_CONFIRMADO: (pedido, endereco, pagamento) => 
+        `✅ *Pedido Confirmado!*\n\n🍽️ ${pedido}\n📍 ${endereco}\n💳 Pagamento: ${pagamento}\n\n⏳ *Um atendente entrará em contato em breve para:*\n• Confirmar seu pedido\n• Informar o valor total\n• Informar o tempo de entrega\n\nObrigado por escolher PAPALEGUAS! 🍽️`,
     
     PEDIDO_EM_PROCESSO: '⏳ *Seu Pedido está sendo Processado!*\n\nLogo um atendente irá confirmar o pedido e informar:\n✅ Os detalhes do pedido\n💰 O valor total\n\nObrigado por escolher o Restaurante PAPALEGUAS! 🍽️',
     
@@ -107,7 +105,7 @@ const RESPONSES = {
     
     // Suporte
     SUPORTE_INICIO: 'Um atendente vai responder em breve! 🎯\nDigite *Menu* para voltar.',
-    SUPORTE_AVISO_DONO: (nome, numero) => `👤 *CLIENTE SOLICITANDO ATENDIMENTO*\n\nCliente: ${nome}\n📱 https://wa.me/${numero}`,
+    SUPORTE_AVISO_DONO: (numero) => `👤 *CLIENTE SOLICITANDO ATENDIMENTO*\n\n📱 https://wa.me/${numero}`,
     
     // Mensagens padrão
     INATIVIDADE: 'Ficamos inativos por um tempo. Digite *Menu* para recomeçar.',
@@ -191,9 +189,8 @@ client.on('message', async (msg) => {
         return;
       }
       if (body === '2') {
-        const nomeCliente = userData[from]?.nome || 'Cliente';
         const numeroCliente = from.replace('@c.us', '');
-        await client.sendMessage(ownerNumber, RESPONSES.SUPORTE_AVISO_DONO(nomeCliente, numeroCliente));
+        await client.sendMessage(ownerNumber, RESPONSES.SUPORTE_AVISO_DONO(numeroCliente));
         await client.sendMessage(from, RESPONSES.SUPORTE_INICIO);
         
         // 🔇 MARCAR CLIENTE EM ATENDIMENTO - IGNORAR BOT POR 15 MIN
@@ -214,20 +211,50 @@ client.on('message', async (msg) => {
       // Aceita a mensagem completa do pedido
       const pedidoCompleto = body.trim();
       
-      // Enviar ao dono
-      const numeroCliente = from.replace('@c.us', '');
+      // Armazenar o pedido para confirmação
+      userData[from] = userData[from] || {};
+      userData[from].pedidoCompleto = pedidoCompleto;
       
-      const ownerMessage = `🚨 *NOVO PEDIDO* 🚨\n\n📱 Cliente: https://wa.me/${numeroCliente}\n\n📝 *Mensagem do Cliente:*\n${pedidoCompleto}`;
-      await client.sendMessage(ownerNumber, ownerMessage);
-
-      // Confirmar ao cliente
-      await client.sendMessage(from, RESPONSES.PEDIDO_EM_PROCESSO);
+      // Pedir confirmação
+      await client.sendMessage(from, RESPONSES.PEDIDO_CONFIRMACAO(pedidoCompleto));
       
-      // 🔇 MARCAR CLIENTE EM ATENDIMENTO - IGNORAR BOT POR 15 MIN
-      userInAttendance[from] = { startTime: Date.now() };
-      delete userStages[from];
-      delete userData[from];
+      // Mudar para estado de confirmação
+      userStages[from] = 'AGUARDANDO_CONFIRMACAO';
       return;
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // ✅ CONFIRMAR PEDIDO
+    // ═══════════════════════════════════════════════════════════════════
+
+    if (state === 'AGUARDANDO_CONFIRMACAO') {
+      if (/^sim$/i.test(body)) {
+        // PEDIDO CONFIRMADO - ENVIAR AO DONO
+        const pedidoCompleto = userData[from].pedidoCompleto;
+        const numeroCliente = from.replace('@c.us', '');
+        
+        const ownerMessage = `🚨 *NOVO PEDIDO* 🚨\n\n📱 Cliente: https://wa.me/${numeroCliente}\n\n📝 *Mensagem do Cliente:*\n${pedidoCompleto}`;
+        await client.sendMessage(ownerNumber, ownerMessage);
+
+        // Confirmar ao cliente
+        await client.sendMessage(from, RESPONSES.PEDIDO_EM_PROCESSO);
+        
+        // 🔇 MARCAR CLIENTE EM ATENDIMENTO - IGNORAR BOT POR 15 MIN
+        userInAttendance[from] = { startTime: Date.now() };
+        delete userStages[from];
+        delete userData[from];
+        return;
+      } else if (/^não|nao$/i.test(body)) {
+        // PEDIDO NÃO CONFIRMADO - PEDIR NOVAMENTE
+        await client.sendMessage(from, RESPONSES.PEDIDO_TUDO_JUNTO);
+        userStages[from] = 'AGUARDANDO_DADOS_COMPLETOS';
+        delete userData[from].pedidoCompleto;
+        return;
+      } else {
+        // RESPOSTA INVÁLIDA
+        await client.sendMessage(from, '⚠️ Por favor, digite *SIM* ou *NÃO*');
+        return;
+      }
     }
 
     // Resposta padrão se não encaixar em nenhum estado
