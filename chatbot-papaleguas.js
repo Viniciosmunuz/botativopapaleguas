@@ -25,6 +25,8 @@ const userStages = {};
 const userData = {};
 const userInAttendance = {};
 let botAtivo = true; // Controle de ativação/desativação do bot
+let ultimoQRCode = null; // Armazena timestamp do último QR code
+const DELAY_QR_CODE = 10 * 60 * 1000; // 10 minutos entre QR codes
 
 // Configurações
 const ATTENDANCE_TIMEOUT = 60 * 60 * 1000; // 1 hora (atendimento manual)
@@ -58,13 +60,24 @@ const RESPONSES = {
 
 // Inicialização
 client.on('qr', qr => {
-    console.log('\n📱 QR CODE gerado! Escaneie com WhatsApp Web:\n');
+    const agora = Date.now();
+    
+    // Se um QR code foi gerado há menos de 10 minutos, ignora este novo
+    if (ultimoQRCode && (agora - ultimoQRCode) < DELAY_QR_CODE) {
+        console.log('⏳ Aguardando 10 minutos antes de gerar novo QR code...');
+        return;
+    }
+    
+    ultimoQRCode = agora;
+    
+    console.log('\n📱 QR CODE gerado! Você tem 10 minutos para escanear:\n');
     qrcode.generate(qr, { small: true });
     console.log('\n' + '═'.repeat(70));
     console.log('🔗 QR CODE URL:');
     console.log('═'.repeat(70));
     console.log(qr);
-    console.log('═'.repeat(70) + '\n');
+    console.log('═'.repeat(70));
+    console.log('⏰ Válido por 10 minutos!\n');
 });
 
 client.on('ready', () => {
