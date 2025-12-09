@@ -84,6 +84,13 @@ client.on('ready', () => {
     console.log('✅ Bot conectado e pronto para receber pedidos!');
 });
 
+client.on('disconnected', (reason) => {
+    console.log('❌ Bot desconectado:', reason);
+    console.log('📱 Aguardando nova conexão...\n');
+    // Reset do timer de QR code para gerar novo na próxima conexão
+    ultimoQRCode = null;
+});
+
 client.on('error', error => {
     console.error('❌ Erro:', error.message);
 });
