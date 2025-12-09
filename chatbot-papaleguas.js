@@ -24,10 +24,10 @@ const client = new Client({
 const userStages = {};
 const userData = {};
 const userInAttendance = {};
+let botAtivo = true; // Controle de ativação/desativação do bot
 
 // Configurações
-const INACTIVITY_TIMEOUT = 60 * 60 * 1000; // 1 hora
-const ATTENDANCE_TIMEOUT = 60 * 60 * 1000; // 1 hora
+const ATTENDANCE_TIMEOUT = 60 * 60 * 1000; // 1 hora (atendimento manual)
 const OWNER_NUMBER = process.env.OWNER_NUMBER || '5592999130838@c.us';
 const CARDAPIO_LINK = process.env.CARDAPIO_LINK || 'https://drive.google.com/file/d/1-exemplo-cardapio/view?usp=drive_link';
 
@@ -50,6 +50,9 @@ const RESPONSES = {
     SUPORTE_INICIO: 'Um atendente vai responder em breve! 🎯',
     SUPORTE_AVISO_DONO: (numero) => `👤 *CLIENTE SOLICITANDO ATENDIMENTO*\n\n📱 https://wa.me/${numero}`,
     
+    BOT_DESLIGADO: '🔴 *BOT DESLIGADO* 🔴\n\nO atendimento está desativado no momento.\nTente novamente mais tarde!',
+    BOT_REATIVADO: '🟢 *BOT REATIVADO* 🟢\n\nAtendimento online novamente!',
+    
     RESPOSTA_PADRAO: 'Não entendi. Digite *Menu* para ver as opções.',
 };
 
@@ -66,12 +69,6 @@ client.on('qr', qr => {
 
 client.on('ready', () => {
     console.log('✅ Bot conectado e pronto para receber pedidos!');
-    
-    // Limpar todos os dados quando WhatsApp conecta
-    Object.keys(userStages).forEach(key => delete userStages[key]);
-    Object.keys(userData).forEach(key => delete userData[key]);
-    Object.keys(userInAttendance).forEach(key => delete userInAttendance[key]);
-    console.log('🔄 Dados resetados - sessão limpa!\n');
 });
 
 client.on('error', error => {
@@ -96,6 +93,21 @@ client.on('message', async (msg) => {
 
     console.log(`📨 ${from}: "${body}"`);
 
+    // Comando: Desligar/Ligar Bot (apenas para dono)
+    if (body === '-' && from === OWNER_NUMBER) {
+        botAtivo = !botAtivo;
+        const msg_resposta = botAtivo ? RESPONSES.BOT_REATIVADO : RESPONSES.BOT_DESLIGADO;
+        await client.sendMessage(from, msg_resposta);
+        console.log(botAtivo ? '🟢 BOT REATIVADO' : '🔴 BOT DESLIGADO');
+        return;
+    }
+
+    // Se bot está desligado, ignora mensagens de clientes (exceto dono)
+    if (!botAtivo && from !== OWNER_NUMBER) {
+        await client.sendMessage(from, RESPONSES.BOT_DESLIGADO);
+        return;
+    }
+
     // Verifica se cliente está em atendimento
     if (userInAttendance[from]) {
         const timeInAttendance = Date.now() - userInAttendance[from].startTime;
@@ -112,18 +124,7 @@ client.on('message', async (msg) => {
     let state = userStages[from] || null;
     const now = Date.now();
 
-    // Reset após 1 hora de inatividade
-    if (state && userData[from]?.lastActivity && (now - userData[from].lastActivity > INACTIVITY_TIMEOUT)) {
-        state = null;
-        delete userStages[from];
-        delete userData[from];
-    }
-
-    // Atualizar atividade
-    if (state !== 'SUPORTE') {
-        userData[from] = userData[from] || {};
-        userData[from].lastActivity = now;
-    }
+    // Atualizar atividade (para referência futura se necessário)
 
     // Efeito de digitação
     await msg.getChat().then(chat => chat.sendStateTyping());
