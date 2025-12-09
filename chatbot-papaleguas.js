@@ -27,7 +27,7 @@ const userInAttendance = {};
 
 // Configurações
 const INACTIVITY_TIMEOUT = 60 * 60 * 1000; // 1 hora
-const ATTENDANCE_TIMEOUT = 15 * 60 * 1000; // 15 minutos
+const ATTENDANCE_TIMEOUT = 60 * 60 * 1000; // 1 hora
 const OWNER_NUMBER = process.env.OWNER_NUMBER || '5592999130838@c.us';
 const CARDAPIO_LINK = process.env.CARDAPIO_LINK || 'https://drive.google.com/file/d/1-exemplo-cardapio/view?usp=drive_link';
 
@@ -66,6 +66,12 @@ client.on('qr', qr => {
 
 client.on('ready', () => {
     console.log('✅ Bot conectado e pronto para receber pedidos!');
+    
+    // Limpar todos os dados quando WhatsApp conecta
+    Object.keys(userStages).forEach(key => delete userStages[key]);
+    Object.keys(userData).forEach(key => delete userData[key]);
+    Object.keys(userInAttendance).forEach(key => delete userInAttendance[key]);
+    console.log('🔄 Dados resetados - sessão limpa!\n');
 });
 
 client.on('error', error => {
