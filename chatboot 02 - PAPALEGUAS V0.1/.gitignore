@@ -5,5 +5,3 @@ node_modules/
 .vscode/
 dist/
 build/
-.wwebjs_auth/
-.wwebjs_cache/

@@ -1,183 +1,1257 @@
-2025/12/03-23:18:46.714 2a2c Reusing MANIFEST C:\Users\jvini\Documents\chatbot\chatboot 02 - PAPALEGUAS\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/03-23:18:46.715 2a2c Recovering log #142
-2025/12/03-23:18:46.727 2a2c Reusing old log C:\Users\jvini\Documents\chatbot\chatboot 02 - PAPALEGUAS\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000142.log 
-2025/12/03-23:18:46.727 2a2c Delete type=2 #141
-2025/12/03-23:18:49.156 9550 Manual compaction at level-0 from '\x008\x00\x00\x00' @ 72057594037927935 : 1 .. '\x009\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.158 9550 Manual compaction at level-0 from '\x004\x00\x00\x00' @ 72057594037927935 : 1 .. '\x005\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.165 9550 Manual compaction at level-0 from '\x006\x00\x00\x00' @ 72057594037927935 : 1 .. '\x007\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.167 9550 Level-0 table #147: started
-2025/12/03-23:18:49.176 9550 Level-0 table #147: 84273 bytes OK
-2025/12/03-23:18:49.177 9550 Delete type=0 #142
-2025/12/03-23:18:49.178 9550 Manual compaction at level-0 from '\x009\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00:\x00\x00\x00' @ 0 : 0; will stop at '\x00:\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 56176 : 1
-2025/12/03-23:18:49.178 9550 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.184 9550 Generated table #148@0: 2756 keys, 37213 bytes
-2025/12/03-23:18:49.184 9550 Compacted 1@0 + 1@1 files => 37213 bytes
-2025/12/03-23:18:49.186 9550 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.186 9550 Delete type=2 #147
-2025/12/03-23:18:49.186 9550 Manual compaction at level-0 from '\x00:\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 56176 : 1 .. '\x00:\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.187 9550 Level-0 table #150: started
-2025/12/03-23:18:49.200 9550 Level-0 table #150: 718 bytes OK
-2025/12/03-23:18:49.202 9550 Delete type=2 #144
-2025/12/03-23:18:49.202 9550 Delete type=0 #146
-2025/12/03-23:18:49.202 9550 Manual compaction at level-0 from '\x005\x00\x00\x00' @ 72057594037927935 : 1 .. '\x006\x00\x00\x00' @ 0 : 0; will stop at '\x005\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 58494 : 0
-2025/12/03-23:18:49.202 9550 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.211 9550 Generated table #151@0: 2734 keys, 36586 bytes
-2025/12/03-23:18:49.211 9550 Compacted 1@0 + 1@1 files => 36586 bytes
-2025/12/03-23:18:49.212 9550 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.212 9550 Delete type=2 #150
-2025/12/03-23:18:49.212 9550 Manual compaction at level-0 from '\x005\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 58494 : 0 .. '\x006\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.213 9550 Level-0 table #153: started
-2025/12/03-23:18:49.225 9550 Level-0 table #153: 578 bytes OK
-2025/12/03-23:18:49.227 9550 Delete type=2 #148
-2025/12/03-23:18:49.227 9550 Delete type=0 #149
-2025/12/03-23:18:49.227 9550 Manual compaction at level-0 from '\x00:\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00;\x00\x00\x00' @ 0 : 0; will stop at '\x00;\x00\x00\x05' @ 58498 : 1
-2025/12/03-23:18:49.227 9550 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.235 9550 Generated table #154@0: 2715 keys, 36264 bytes
-2025/12/03-23:18:49.235 9550 Compacted 1@0 + 1@1 files => 36264 bytes
-2025/12/03-23:18:49.236 9550 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.237 9550 Delete type=2 #153
-2025/12/03-23:18:49.237 9550 Manual compaction at level-0 from '\x00;\x00\x00\x05' @ 58498 : 1 .. '\x00;\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.239 b308 Level-0 table #156: started
-2025/12/03-23:18:49.242 b308 Level-0 table #156: 13836 bytes OK
-2025/12/03-23:18:49.244 b308 Delete type=2 #151
-2025/12/03-23:18:49.244 b308 Delete type=0 #152
-2025/12/03-23:18:49.245 b308 Manual compaction at level-0 from '\x00(\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at '\x00;\x00\x00\xc8\x11\x00w\x00o\x00r\x00k\x00e\x00r\x00_\x00w\x00a\x00m\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 58836 : 1
-2025/12/03-23:18:49.245 b308 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.250 b308 Generated table #157@0: 2601 keys, 23807 bytes
-2025/12/03-23:18:49.250 b308 Compacted 1@0 + 1@1 files => 23807 bytes
-2025/12/03-23:18:49.254 b308 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.254 b308 Delete type=2 #156
-2025/12/03-23:18:49.254 b308 Manual compaction at level-0 from '\x00;\x00\x00\xc8\x11\x00w\x00o\x00r\x00k\x00e\x00r\x00_\x00w\x00a\x00m\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 58836 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.254 b308 Manual compaction at level-1 from '\x00(\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at '\x00;\x00\x00\xc8\x11\x00w\x00o\x00r\x00k\x00e\x00r\x00_\x00w\x00a\x00m\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 58836 : 1
-2025/12/03-23:18:49.254 b308 Compacting 1@1 + 1@2 files
-2025/12/03-23:18:49.259 b308 Generated table #158@1: 313 keys, 4421 bytes
-2025/12/03-23:18:49.259 b308 Compacted 1@1 + 1@2 files => 4421 bytes
-2025/12/03-23:18:49.260 b308 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/12/03-23:18:49.260 b308 Delete type=2 #157
-2025/12/03-23:18:49.260 b308 Manual compaction at level-1 from '\x00;\x00\x00\xc8\x11\x00w\x00o\x00r\x00k\x00e\x00r\x00_\x00w\x00a\x00m\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 58836 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.395 a8c0 Level-0 table #160: started
-2025/12/03-23:18:49.403 a8c0 Level-0 table #160: 6009 bytes OK
-2025/12/03-23:18:49.405 a8c0 Delete type=2 #109
-2025/12/03-23:18:49.405 a8c0 Delete type=2 #154
-2025/12/03-23:18:49.405 a8c0 Delete type=0 #155
-2025/12/03-23:18:49.406 a8c0 Manual compaction at level-0 from '\x00<\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.406 a908 Level-0 table #162: started
-2025/12/03-23:18:49.422 a908 Level-0 table #162: 474 bytes OK
-2025/12/03-23:18:49.426 a908 Delete type=0 #159
-2025/12/03-23:18:49.426 a908 Manual compaction at level-0 from '\x00=\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00>\x00\x00\x00' @ 0 : 0; will stop at '\x00=\x00\x00\x05' @ 59710 : 0
-2025/12/03-23:18:49.426 a908 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.432 a908 Generated table #163@0: 287 keys, 5610 bytes
-2025/12/03-23:18:49.432 a908 Compacted 1@0 + 1@1 files => 5610 bytes
-2025/12/03-23:18:49.434 a908 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.435 a908 Delete type=2 #162
-2025/12/03-23:18:49.435 a908 Manual compaction at level-0 from '\x00=\x00\x00\x05' @ 59710 : 0 .. '\x00>\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.437 5ba4 Level-0 table #165: started
-2025/12/03-23:18:49.446 5ba4 Level-0 table #165: 2021 bytes OK
-2025/12/03-23:18:49.448 5ba4 Delete type=2 #160
-2025/12/03-23:18:49.448 5ba4 Delete type=0 #161
-2025/12/03-23:18:49.448 5ba4 Manual compaction at level-0 from '\x00>\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at '\x00G\x00\x00\xc8\x0a\x00q\x00p\x00l\x00-\x00e\x00v\x00e\x00n\x00t\x00s' @ 59806 : 1
-2025/12/03-23:18:49.448 5ba4 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.451 5ba4 Generated table #166@0: 351 keys, 6588 bytes
-2025/12/03-23:18:49.451 5ba4 Compacted 1@0 + 1@1 files => 6588 bytes
-2025/12/03-23:18:49.452 5ba4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.453 5ba4 Delete type=2 #165
-2025/12/03-23:18:49.453 5ba4 Manual compaction at level-0 from '\x00G\x00\x00\xc8\x0a\x00q\x00p\x00l\x00-\x00e\x00v\x00e\x00n\x00t\x00s' @ 59806 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.453 9550 Level-0 table #168: started
-2025/12/03-23:18:49.463 9550 Level-0 table #168: 809 bytes OK
-2025/12/03-23:18:49.465 9550 Delete type=2 #163
-2025/12/03-23:18:49.465 9550 Delete type=0 #164
-2025/12/03-23:18:49.465 9550 Manual compaction at level-0 from '\x00?\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at '\x00G\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 59829 : 1
-2025/12/03-23:18:49.465 9550 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.469 9550 Generated table #169@0: 356 keys, 7019 bytes
-2025/12/03-23:18:49.469 9550 Compacted 1@0 + 1@1 files => 7019 bytes
-2025/12/03-23:18:49.470 9550 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.470 9550 Delete type=2 #168
-2025/12/03-23:18:49.470 9550 Manual compaction at level-0 from '\x00G\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 59829 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.471 9550 Level-0 table #171: started
-2025/12/03-23:18:49.480 9550 Level-0 table #171: 249 bytes OK
-2025/12/03-23:18:49.484 9550 Delete type=2 #166
-2025/12/03-23:18:49.484 9550 Delete type=0 #167
-2025/12/03-23:18:49.484 9550 Manual compaction at level-0 from '\x00@\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00A\x00\x00\x00' @ 0 : 0; will stop at '\x00@\x00\x00\x05' @ 59845 : 0
-2025/12/03-23:18:49.484 9550 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.487 9550 Generated table #172@0: 354 keys, 6974 bytes
-2025/12/03-23:18:49.487 9550 Compacted 1@0 + 1@1 files => 6974 bytes
-2025/12/03-23:18:49.488 9550 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.488 9550 Delete type=2 #171
-2025/12/03-23:18:49.488 9550 Manual compaction at level-0 from '\x00@\x00\x00\x05' @ 59845 : 0 .. '\x00A\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.489 a908 Level-0 table #174: started
-2025/12/03-23:18:49.500 a908 Level-0 table #174: 249 bytes OK
-2025/12/03-23:18:49.501 a908 Delete type=2 #169
-2025/12/03-23:18:49.501 a908 Delete type=0 #170
-2025/12/03-23:18:49.502 a908 Manual compaction at level-0 from '\x00A\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00B\x00\x00\x00' @ 0 : 0; will stop at '\x00A\x00\x00\x05' @ 59851 : 0
-2025/12/03-23:18:49.502 a908 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.504 a908 Generated table #175@0: 352 keys, 6949 bytes
-2025/12/03-23:18:49.504 a908 Compacted 1@0 + 1@1 files => 6949 bytes
-2025/12/03-23:18:49.506 a908 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.506 a908 Delete type=2 #174
-2025/12/03-23:18:49.506 a908 Manual compaction at level-0 from '\x00A\x00\x00\x05' @ 59851 : 0 .. '\x00B\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.507 5ba4 Level-0 table #177: started
-2025/12/03-23:18:49.516 5ba4 Level-0 table #177: 249 bytes OK
-2025/12/03-23:18:49.517 5ba4 Delete type=2 #172
-2025/12/03-23:18:49.517 5ba4 Delete type=0 #173
-2025/12/03-23:18:49.518 5ba4 Manual compaction at level-0 from '\x00B\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00C\x00\x00\x00' @ 0 : 0; will stop at '\x00B\x00\x00\x05' @ 59857 : 0
-2025/12/03-23:18:49.518 5ba4 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.521 5ba4 Generated table #178@0: 350 keys, 6914 bytes
-2025/12/03-23:18:49.521 5ba4 Compacted 1@0 + 1@1 files => 6914 bytes
-2025/12/03-23:18:49.522 5ba4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.522 5ba4 Delete type=2 #177
-2025/12/03-23:18:49.523 5ba4 Manual compaction at level-0 from '\x00B\x00\x00\x05' @ 59857 : 0 .. '\x00C\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.523 9550 Level-0 table #180: started
-2025/12/03-23:18:49.535 9550 Level-0 table #180: 249 bytes OK
-2025/12/03-23:18:49.536 9550 Delete type=2 #175
-2025/12/03-23:18:49.536 9550 Delete type=0 #176
-2025/12/03-23:18:49.537 9550 Manual compaction at level-0 from '\x00F\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00G\x00\x00\x00' @ 0 : 0; will stop at '\x00F\x00\x00\x05' @ 59863 : 0
-2025/12/03-23:18:49.537 9550 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.540 9550 Generated table #181@0: 348 keys, 6849 bytes
-2025/12/03-23:18:49.540 9550 Compacted 1@0 + 1@1 files => 6849 bytes
-2025/12/03-23:18:49.541 9550 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.541 9550 Delete type=2 #180
-2025/12/03-23:18:49.541 9550 Manual compaction at level-0 from '\x00F\x00\x00\x05' @ 59863 : 0 .. '\x00G\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.541 5ba4 Level-0 table #183: started
-2025/12/03-23:18:49.552 5ba4 Level-0 table #183: 249 bytes OK
-2025/12/03-23:18:49.553 5ba4 Delete type=2 #178
-2025/12/03-23:18:49.553 5ba4 Delete type=0 #179
-2025/12/03-23:18:49.554 5ba4 Manual compaction at level-0 from '\x00D\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00E\x00\x00\x00' @ 0 : 0; will stop at '\x00D\x00\x00\x05' @ 59869 : 0
-2025/12/03-23:18:49.554 5ba4 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.556 5ba4 Generated table #184@0: 346 keys, 6750 bytes
-2025/12/03-23:18:49.556 5ba4 Compacted 1@0 + 1@1 files => 6750 bytes
-2025/12/03-23:18:49.558 5ba4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.558 5ba4 Delete type=2 #183
-2025/12/03-23:18:49.558 5ba4 Manual compaction at level-0 from '\x00D\x00\x00\x05' @ 59869 : 0 .. '\x00E\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.559 5ba4 Level-0 table #186: started
-2025/12/03-23:18:49.568 5ba4 Level-0 table #186: 249 bytes OK
-2025/12/03-23:18:49.570 5ba4 Delete type=2 #181
-2025/12/03-23:18:49.570 5ba4 Delete type=0 #182
-2025/12/03-23:18:49.571 5ba4 Manual compaction at level-0 from '\x00E\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00F\x00\x00\x00' @ 0 : 0; will stop at '\x00E\x00\x00\x05' @ 59875 : 0
-2025/12/03-23:18:49.571 5ba4 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.574 5ba4 Generated table #187@0: 344 keys, 6754 bytes
-2025/12/03-23:18:49.574 5ba4 Compacted 1@0 + 1@1 files => 6754 bytes
-2025/12/03-23:18:49.575 5ba4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.575 5ba4 Delete type=2 #186
-2025/12/03-23:18:49.575 5ba4 Manual compaction at level-0 from '\x00E\x00\x00\x05' @ 59875 : 0 .. '\x00F\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:49.576 a908 Level-0 table #189: started
-2025/12/03-23:18:49.587 a908 Level-0 table #189: 249 bytes OK
-2025/12/03-23:18:49.601 a908 Delete type=2 #184
-2025/12/03-23:18:49.602 a908 Delete type=0 #185
-2025/12/03-23:18:49.602 a908 Manual compaction at level-0 from '\x00C\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00D\x00\x00\x00' @ 0 : 0; will stop at '\x00C\x00\x00\x05' @ 59881 : 0
-2025/12/03-23:18:49.602 a908 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:49.605 a908 Generated table #190@0: 342 keys, 6668 bytes
-2025/12/03-23:18:49.605 a908 Compacted 1@0 + 1@1 files => 6668 bytes
-2025/12/03-23:18:49.606 a908 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:49.606 a908 Delete type=2 #189
-2025/12/03-23:18:49.606 a908 Manual compaction at level-0 from '\x00C\x00\x00\x05' @ 59881 : 0 .. '\x00D\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/12/03-23:18:50.363 5ba4 Level-0 table #192: started
-2025/12/03-23:18:50.370 5ba4 Level-0 table #192: 18334 bytes OK
-2025/12/03-23:18:50.371 5ba4 Delete type=2 #187
-2025/12/03-23:18:50.371 5ba4 Delete type=0 #188
-2025/12/03-23:18:50.372 5ba4 Manual compaction at level-0 from '\x00J\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00K\x00\x00\x00' @ 0 : 0; will stop at '\x00J\x00\x00\x05' @ 60999 : 1
-2025/12/03-23:18:50.372 5ba4 Compacting 1@0 + 1@1 files
-2025/12/03-23:18:50.376 5ba4 Generated table #193@0: 973 keys, 16270 bytes
-2025/12/03-23:18:50.376 5ba4 Compacted 1@0 + 1@1 files => 16270 bytes
-2025/12/03-23:18:50.377 5ba4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/12/03-23:18:50.377 5ba4 Delete type=2 #192
-2025/12/03-23:18:50.378 5ba4 Manual compaction at level-0 from '\x00J\x00\x00\x05' @ 60999 : 1 .. '\x00K\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.415 7168 Creating DB C:\Users\jvini\Documents\chatbot\chatboot 02 - PAPALEGUAS V0.1\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2025/12/09-13:11:08.423 7168 Reusing MANIFEST C:\Users\jvini\Documents\chatbot\chatboot 02 - PAPALEGUAS V0.1\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/09-13:11:08.632 7b20 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.634 7b20 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.635 7b20 Level-0 table #5: started
+2025/12/09-13:11:08.642 7b20 Level-0 table #5: 11190 bytes OK
+2025/12/09-13:11:08.648 7b20 Delete type=0 #3
+2025/12/09-13:11:08.648 7b20 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.650 7b20 Level-0 table #7: started
+2025/12/09-13:11:08.667 7b20 Level-0 table #7: 636 bytes OK
+2025/12/09-13:11:08.672 7b20 Delete type=0 #4
+2025/12/09-13:11:08.672 7b20 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.672 7b20 Manual compaction at level-1 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 754 : 0
+2025/12/09-13:11:08.672 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:08.676 7b20 Generated table #8@1: 213 keys, 4590 bytes
+2025/12/09-13:11:08.676 7b20 Compacted 1@1 + 1@2 files => 4590 bytes
+2025/12/09-13:11:08.680 7b20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:08.681 7b20 Delete type=2 #7
+2025/12/09-13:11:08.681 7b20 Manual compaction at level-1 from '\x00\x05\x00\x00\x05' @ 754 : 0 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.682 7b20 Level-0 table #10: started
+2025/12/09-13:11:08.693 7b20 Level-0 table #10: 1133 bytes OK
+2025/12/09-13:11:08.699 7b20 Delete type=2 #5
+2025/12/09-13:11:08.699 7b20 Delete type=0 #6
+2025/12/09-13:11:08.699 7b20 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.700 7b20 Manual compaction at level-1 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0e\x00\x00\x05' @ 806 : 1
+2025/12/09-13:11:08.700 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:08.706 7b20 Generated table #11@1: 228 keys, 4677 bytes
+2025/12/09-13:11:08.706 7b20 Compacted 1@1 + 1@2 files => 4677 bytes
+2025/12/09-13:11:08.709 7b20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:08.709 7b20 Delete type=2 #10
+2025/12/09-13:11:08.709 7b20 Manual compaction at level-1 from '\x00\x0e\x00\x00\x05' @ 806 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.710 7b20 Level-0 table #13: started
+2025/12/09-13:11:08.720 7b20 Level-0 table #13: 2361 bytes OK
+2025/12/09-13:11:08.723 7b20 Delete type=2 #8
+2025/12/09-13:11:08.723 7b20 Delete type=0 #9
+2025/12/09-13:11:08.724 7b20 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.724 7b20 Manual compaction at level-1 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 910 : 1
+2025/12/09-13:11:08.724 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:08.727 7b20 Generated table #14@1: 309 keys, 6670 bytes
+2025/12/09-13:11:08.727 7b20 Compacted 1@1 + 1@2 files => 6670 bytes
+2025/12/09-13:11:08.733 7b20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:08.733 7b20 Delete type=2 #13
+2025/12/09-13:11:08.734 7b20 Manual compaction at level-1 from '\x00\x0f\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 910 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.734 7b20 Level-0 table #16: started
+2025/12/09-13:11:08.745 7b20 Level-0 table #16: 2694 bytes OK
+2025/12/09-13:11:08.748 7b20 Delete type=2 #11
+2025/12/09-13:11:08.748 7b20 Delete type=0 #12
+2025/12/09-13:11:08.749 7b20 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.749 7b20 Manual compaction at level-1 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x10\x00\x00\xc8\x13\x00s\x00i\x00g\x00n\x00e\x00d\x00-\x00p\x00r\x00e\x00k\x00e\x00y\x00-\x00s\x00t\x00o\x00r\x00e' @ 1017 : 1
+2025/12/09-13:11:08.749 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:08.752 7b20 Generated table #17@1: 460 keys, 8868 bytes
+2025/12/09-13:11:08.752 7b20 Compacted 1@1 + 1@2 files => 8868 bytes
+2025/12/09-13:11:08.753 7b20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:08.753 7b20 Delete type=2 #16
+2025/12/09-13:11:08.754 7b20 Manual compaction at level-1 from '\x00\x10\x00\x00\xc8\x13\x00s\x00i\x00g\x00n\x00e\x00d\x00-\x00p\x00r\x00e\x00k\x00e\x00y\x00-\x00s\x00t\x00o\x00r\x00e' @ 1017 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.754 863c Level-0 table #19: started
+2025/12/09-13:11:08.766 863c Level-0 table #19: 528 bytes OK
+2025/12/09-13:11:08.768 863c Delete type=2 #14
+2025/12/09-13:11:08.768 863c Delete type=0 #15
+2025/12/09-13:11:08.768 863c Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.768 863c Manual compaction at level-1 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 1098 : 1
+2025/12/09-13:11:08.768 863c Compacting 1@1 + 1@2 files
+2025/12/09-13:11:08.771 863c Generated table #20@1: 460 keys, 8899 bytes
+2025/12/09-13:11:08.771 863c Compacted 1@1 + 1@2 files => 8899 bytes
+2025/12/09-13:11:08.772 863c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:08.773 863c Delete type=2 #19
+2025/12/09-13:11:08.773 863c Manual compaction at level-1 from '\x00\x11\x00\x00\x05' @ 1098 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.774 86f0 Level-0 table #22: started
+2025/12/09-13:11:08.787 86f0 Level-0 table #22: 249 bytes OK
+2025/12/09-13:11:08.789 86f0 Delete type=2 #17
+2025/12/09-13:11:08.789 86f0 Delete type=0 #18
+2025/12/09-13:11:08.789 86f0 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.789 86f0 Manual compaction at level-1 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 1118 : 0
+2025/12/09-13:11:08.789 86f0 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:08.793 86f0 Generated table #23@1: 454 keys, 8802 bytes
+2025/12/09-13:11:08.793 86f0 Compacted 1@1 + 1@2 files => 8802 bytes
+2025/12/09-13:11:08.794 86f0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:08.794 86f0 Delete type=2 #22
+2025/12/09-13:11:08.795 86f0 Manual compaction at level-1 from '\x00\x0a\x00\x00\x05' @ 1118 : 0 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.795 863c Level-0 table #25: started
+2025/12/09-13:11:08.807 863c Level-0 table #25: 249 bytes OK
+2025/12/09-13:11:08.809 863c Delete type=2 #20
+2025/12/09-13:11:08.809 863c Delete type=0 #21
+2025/12/09-13:11:08.809 863c Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.809 863c Manual compaction at level-1 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 1124 : 0
+2025/12/09-13:11:08.809 863c Compacting 1@1 + 1@2 files
+2025/12/09-13:11:08.813 863c Generated table #26@1: 448 keys, 8747 bytes
+2025/12/09-13:11:08.813 863c Compacted 1@1 + 1@2 files => 8747 bytes
+2025/12/09-13:11:08.814 863c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:08.814 863c Delete type=2 #25
+2025/12/09-13:11:08.815 863c Manual compaction at level-1 from '\x00\x0b\x00\x00\x05' @ 1124 : 0 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.815 863c Level-0 table #28: started
+2025/12/09-13:11:08.827 863c Level-0 table #28: 249 bytes OK
+2025/12/09-13:11:08.828 863c Delete type=2 #23
+2025/12/09-13:11:08.828 863c Delete type=0 #24
+2025/12/09-13:11:08.828 863c Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.829 863c Manual compaction at level-1 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 1130 : 0
+2025/12/09-13:11:08.829 863c Compacting 1@1 + 1@2 files
+2025/12/09-13:11:08.831 863c Generated table #29@1: 442 keys, 8465 bytes
+2025/12/09-13:11:08.831 863c Compacted 1@1 + 1@2 files => 8465 bytes
+2025/12/09-13:11:08.832 863c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:08.833 863c Delete type=2 #28
+2025/12/09-13:11:08.833 863c Manual compaction at level-1 from '\x00\x09\x00\x00\x05' @ 1130 : 0 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.834 86f0 Level-0 table #31: started
+2025/12/09-13:11:08.842 86f0 Level-0 table #31: 1337 bytes OK
+2025/12/09-13:11:08.844 86f0 Delete type=2 #26
+2025/12/09-13:11:08.844 86f0 Delete type=0 #27
+2025/12/09-13:11:08.844 86f0 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:08.844 86f0 Manual compaction at level-1 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 1267 : 0
+2025/12/09-13:11:08.844 86f0 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:08.847 86f0 Generated table #32@1: 305 keys, 6544 bytes
+2025/12/09-13:11:08.847 86f0 Compacted 1@1 + 1@2 files => 6544 bytes
+2025/12/09-13:11:08.848 86f0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:08.848 86f0 Delete type=2 #31
+2025/12/09-13:11:08.849 86f0 Manual compaction at level-1 from '\x00\x11\x00\x00\x05' @ 1267 : 0 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:11:37.859 863c Level-0 table #34: started
+2025/12/09-13:11:37.878 863c Level-0 table #34: 1022023 bytes OK
+2025/12/09-13:11:37.880 863c Delete type=2 #29
+2025/12/09-13:11:37.880 863c Delete type=0 #30
+2025/12/09-13:11:38.501 863c Level-0 table #36: started
+2025/12/09-13:11:38.520 863c Level-0 table #36: 1351951 bytes OK
+2025/12/09-13:11:38.521 863c Delete type=0 #33
+2025/12/09-13:11:38.527 7b20 Compacting 1@0 + 1@1 files
+2025/12/09-13:11:38.586 7b20 Generated table #37@0: 40108 keys, 774345 bytes
+2025/12/09-13:11:38.586 7b20 Compacted 1@0 + 1@1 files => 774345 bytes
+2025/12/09-13:11:38.587 7b20 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/09-13:11:38.715 7b20 Level-0 table #39: started
+2025/12/09-13:11:38.745 7b20 Level-0 table #39: 1481398 bytes OK
+2025/12/09-13:11:38.747 7b20 Delete type=2 #34
+2025/12/09-13:11:38.747 7b20 Delete type=0 #35
+2025/12/09-13:11:38.747 7b20 Delete type=2 #36
+2025/12/09-13:11:38.756 8430 Compacting 1@0 + 1@1 files
+2025/12/09-13:11:38.808 8430 Generated table #40@0: 48423 keys, 1250005 bytes
+2025/12/09-13:11:38.808 8430 Compacted 1@0 + 1@1 files => 1250005 bytes
+2025/12/09-13:11:38.810 8430 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/09-13:11:38.810 8430 Delete type=2 #37
+2025/12/09-13:11:38.810 8430 Delete type=2 #39
+2025/12/09-13:11:38.942 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:38.978 7b20 Generated table #41@1: 16199 keys, 989302 bytes
+2025/12/09-13:11:38.978 7b20 Compacted 1@1 + 1@2 files => 989302 bytes
+2025/12/09-13:11:38.979 7b20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:38.979 7b20 Delete type=2 #32
+2025/12/09-13:11:38.979 7b20 Delete type=2 #40
+2025/12/09-13:11:44.309 7b20 Level-0 table #43: started
+2025/12/09-13:11:44.334 7b20 Level-0 table #43: 1156839 bytes OK
+2025/12/09-13:11:44.336 7b20 Delete type=0 #38
+2025/12/09-13:11:45.325 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:45.368 7b20 Generated table #44@1: 27797 keys, 1361837 bytes
+2025/12/09-13:11:45.368 7b20 Compacted 1@1 + 1@2 files => 1361837 bytes
+2025/12/09-13:11:45.369 7b20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:11:45.920 7168 Level-0 table #46: started
+2025/12/09-13:11:45.938 7168 Level-0 table #46: 1203891 bytes OK
+2025/12/09-13:11:45.939 7168 Delete type=2 #41
+2025/12/09-13:11:45.939 7168 Delete type=0 #42
+2025/12/09-13:11:45.939 7168 Delete type=2 #43
+2025/12/09-13:11:45.941 7168 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:45.991 7168 Generated table #47@1: 37875 keys, 2201914 bytes
+2025/12/09-13:11:45.994 7168 Generated table #48@1: 683 keys, 48210 bytes
+2025/12/09-13:11:45.994 7168 Compacted 1@1 + 1@2 files => 2250124 bytes
+2025/12/09-13:11:45.995 7168 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/12/09-13:11:48.134 863c Level-0 table #50: started
+2025/12/09-13:11:48.160 863c Level-0 table #50: 1313637 bytes OK
+2025/12/09-13:11:48.161 863c Delete type=2 #44
+2025/12/09-13:11:48.161 863c Delete type=0 #45
+2025/12/09-13:11:48.161 863c Delete type=2 #46
+2025/12/09-13:11:48.177 863c Compacting 1@1 + 2@2 files
+2025/12/09-13:11:48.224 863c Generated table #51@1: 28940 keys, 2183119 bytes
+2025/12/09-13:11:48.246 863c Generated table #52@1: 14784 keys, 815288 bytes
+2025/12/09-13:11:48.246 863c Compacted 1@1 + 2@2 files => 2998407 bytes
+2025/12/09-13:11:48.249 863c compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/12/09-13:11:49.066 863c Level-0 table #54: started
+2025/12/09-13:11:49.088 863c Level-0 table #54: 1176302 bytes OK
+2025/12/09-13:11:49.092 863c Delete type=2 #47
+2025/12/09-13:11:49.093 863c Delete type=2 #48
+2025/12/09-13:11:49.093 863c Delete type=0 #49
+2025/12/09-13:11:49.093 863c Delete type=2 #50
+2025/12/09-13:11:49.104 863c Compacting 1@1 + 2@2 files
+2025/12/09-13:11:49.164 863c Generated table #55@1: 62661 keys, 2224038 bytes
+2025/12/09-13:11:49.194 863c Generated table #56@1: 15990 keys, 1796428 bytes
+2025/12/09-13:11:49.194 863c Compacted 1@1 + 2@2 files => 4020466 bytes
+2025/12/09-13:11:49.195 863c compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/12/09-13:11:50.001 6768 Level-0 table #58: started
+2025/12/09-13:11:50.019 6768 Level-0 table #58: 1061108 bytes OK
+2025/12/09-13:11:50.020 6768 Delete type=2 #51
+2025/12/09-13:11:50.020 6768 Delete type=2 #52
+2025/12/09-13:11:50.020 6768 Delete type=0 #53
+2025/12/09-13:11:50.020 6768 Delete type=2 #54
+2025/12/09-13:11:50.023 6768 Compacting 1@1 + 2@2 files
+2025/12/09-13:11:50.094 6768 Generated table #59@1: 43486 keys, 2202582 bytes
+2025/12/09-13:11:50.129 6768 Generated table #60@1: 21626 keys, 1830993 bytes
+2025/12/09-13:11:50.129 6768 Compacted 1@1 + 2@2 files => 4033575 bytes
+2025/12/09-13:11:50.130 6768 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/12/09-13:11:50.130 6768 Delete type=2 #55
+2025/12/09-13:11:50.130 6768 Delete type=2 #56
+2025/12/09-13:11:50.130 6768 Delete type=2 #58
+2025/12/09-13:11:50.394 6768 Level-0 table #62: started
+2025/12/09-13:11:50.416 6768 Level-0 table #62: 1214107 bytes OK
+2025/12/09-13:11:50.418 6768 Delete type=0 #57
+2025/12/09-13:11:50.420 6768 Compacting 1@1 + 1@2 files
+2025/12/09-13:11:50.473 6768 Generated table #63@1: 52630 keys, 2207365 bytes
+2025/12/09-13:11:50.494 6768 Generated table #64@1: 10701 keys, 744434 bytes
+2025/12/09-13:11:50.494 6768 Compacted 1@1 + 1@2 files => 2951799 bytes
+2025/12/09-13:11:50.495 6768 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/12/09-13:11:50.495 6768 Delete type=2 #59
+2025/12/09-13:11:50.495 6768 Delete type=2 #62
+2025/12/09-13:11:50.761 6768 Level-0 table #66: started
+2025/12/09-13:11:50.781 6768 Level-0 table #66: 972688 bytes OK
+2025/12/09-13:11:50.783 6768 Delete type=0 #61
+2025/12/09-13:11:50.785 6768 Compacting 1@1 + 3@2 files
+2025/12/09-13:11:50.843 6768 Generated table #67@1: 59596 keys, 2214562 bytes
+2025/12/09-13:11:50.892 6768 Generated table #68@1: 31537 keys, 2187937 bytes
+2025/12/09-13:11:50.919 6768 Generated table #69@1: 21674 keys, 1169358 bytes
+2025/12/09-13:11:50.919 6768 Compacted 1@1 + 3@2 files => 5571857 bytes
+2025/12/09-13:11:50.920 6768 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/12/09-13:11:52.999 7b20 Level-0 table #71: started
+2025/12/09-13:11:53.024 7b20 Level-0 table #71: 1086292 bytes OK
+2025/12/09-13:11:53.026 7b20 Delete type=2 #60
+2025/12/09-13:11:53.026 7b20 Delete type=2 #63
+2025/12/09-13:11:53.026 7b20 Delete type=2 #64
+2025/12/09-13:11:53.026 7b20 Delete type=0 #65
+2025/12/09-13:11:53.026 7b20 Delete type=2 #66
+2025/12/09-13:11:53.030 7b20 Compacting 1@1 + 3@2 files
+2025/12/09-13:11:53.128 7b20 Generated table #72@1: 68922 keys, 2230255 bytes
+2025/12/09-13:11:53.192 7b20 Generated table #73@1: 38849 keys, 2200999 bytes
+2025/12/09-13:11:53.246 7b20 Generated table #74@1: 25136 keys, 1807186 bytes
+2025/12/09-13:11:53.246 7b20 Compacted 1@1 + 3@2 files => 6238440 bytes
+2025/12/09-13:11:53.247 7b20 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/12/09-13:11:53.505 7b20 Level-0 table #76: started
+2025/12/09-13:11:53.536 7b20 Level-0 table #76: 1183212 bytes OK
+2025/12/09-13:11:53.538 7b20 Delete type=2 #67
+2025/12/09-13:11:53.538 7b20 Delete type=2 #68
+2025/12/09-13:11:53.538 7b20 Delete type=2 #69
+2025/12/09-13:11:53.538 7b20 Delete type=0 #70
+2025/12/09-13:11:53.538 7b20 Delete type=2 #71
+2025/12/09-13:11:53.542 7b20 Compacting 1@1 + 3@2 files
+2025/12/09-13:11:53.623 7b20 Generated table #77@1: 64392 keys, 2212584 bytes
+2025/12/09-13:11:53.700 7b20 Generated table #78@1: 54034 keys, 2217303 bytes
+2025/12/09-13:11:53.741 7b20 Generated table #79@1: 21475 keys, 2189226 bytes
+2025/12/09-13:11:53.753 7b20 Generated table #80@1: 9963 keys, 286145 bytes
+2025/12/09-13:11:53.753 7b20 Compacted 1@1 + 3@2 files => 6905258 bytes
+2025/12/09-13:11:53.754 7b20 compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/12/09-13:11:53.754 7b20 Delete type=2 #72
+2025/12/09-13:11:53.754 7b20 Delete type=2 #73
+2025/12/09-13:11:53.754 7b20 Delete type=2 #74
+2025/12/09-13:11:53.754 7b20 Delete type=2 #76
+2025/12/09-13:11:53.974 7b20 Level-0 table #82: started
+2025/12/09-13:11:53.993 7b20 Level-0 table #82: 889989 bytes OK
+2025/12/09-13:11:53.995 7b20 Delete type=0 #75
+2025/12/09-13:11:53.998 7b20 Compacting 1@1 + 3@2 files
+2025/12/09-13:11:54.080 7b20 Generated table #83@1: 69207 keys, 2220195 bytes
+2025/12/09-13:11:54.159 7b20 Generated table #84@1: 52100 keys, 2210629 bytes
+2025/12/09-13:11:54.222 7b20 Generated table #85@1: 24507 keys, 2190102 bytes
+2025/12/09-13:11:54.240 7b20 Generated table #86@1: 10792 keys, 562043 bytes
+2025/12/09-13:11:54.240 7b20 Compacted 1@1 + 3@2 files => 7182969 bytes
+2025/12/09-13:11:54.242 7b20 compacted to: files[ 0 0 5 0 0 0 0 ]
+2025/12/09-13:11:54.464 7b20 Level-0 table #88: started
+2025/12/09-13:11:54.495 7b20 Level-0 table #88: 1141461 bytes OK
+2025/12/09-13:11:54.496 7b20 Delete type=2 #77
+2025/12/09-13:11:54.496 7b20 Delete type=2 #78
+2025/12/09-13:11:54.496 7b20 Delete type=2 #79
+2025/12/09-13:11:54.496 7b20 Delete type=0 #81
+2025/12/09-13:11:54.496 7b20 Delete type=2 #82
+2025/12/09-13:11:54.597 863c Compacting 1@1 + 4@2 files
+2025/12/09-13:11:54.710 863c Generated table #89@1: 54454 keys, 2207433 bytes
+2025/12/09-13:11:54.777 863c Generated table #90@1: 40746 keys, 2200492 bytes
+2025/12/09-13:11:54.818 863c Generated table #91@1: 15571 keys, 1382470 bytes
+2025/12/09-13:11:54.818 863c Compacted 1@1 + 4@2 files => 5790395 bytes
+2025/12/09-13:11:54.819 863c compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/12/09-13:11:55.735 7b20 Level-0 table #93: started
+2025/12/09-13:11:55.757 7b20 Level-0 table #93: 861044 bytes OK
+2025/12/09-13:11:55.759 7b20 Delete type=2 #83
+2025/12/09-13:11:55.759 7b20 Delete type=2 #84
+2025/12/09-13:11:55.759 7b20 Delete type=2 #85
+2025/12/09-13:11:55.759 7b20 Delete type=2 #86
+2025/12/09-13:11:55.759 7b20 Delete type=0 #87
+2025/12/09-13:11:55.759 7b20 Delete type=2 #88
+2025/12/09-13:11:55.768 7b20 Compacting 1@1 + 4@2 files
+2025/12/09-13:11:55.858 7b20 Generated table #94@1: 52710 keys, 2212927 bytes
+2025/12/09-13:11:55.900 7b20 Generated table #95@1: 20684 keys, 2184410 bytes
+2025/12/09-13:11:55.927 7b20 Generated table #96@1: 22591 keys, 827057 bytes
+2025/12/09-13:11:55.927 7b20 Compacted 1@1 + 4@2 files => 5224394 bytes
+2025/12/09-13:11:55.929 7b20 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/12/09-13:11:55.930 7b20 Delete type=2 #80
+2025/12/09-13:11:55.930 7b20 Delete type=2 #89
+2025/12/09-13:11:55.930 7b20 Delete type=2 #90
+2025/12/09-13:11:55.930 7b20 Delete type=2 #91
+2025/12/09-13:11:55.930 7b20 Delete type=2 #93
+2025/12/09-13:12:01.469 7b20 Level-0 table #98: started
+2025/12/09-13:12:01.494 7b20 Level-0 table #98: 1155741 bytes OK
+2025/12/09-13:12:01.496 7b20 Delete type=0 #92
+2025/12/09-13:12:01.498 7b20 Compacting 1@1 + 3@2 files
+2025/12/09-13:12:01.572 7b20 Generated table #99@1: 51994 keys, 2213837 bytes
+2025/12/09-13:12:01.630 7b20 Generated table #100@1: 21816 keys, 2187662 bytes
+2025/12/09-13:12:01.679 7b20 Generated table #101@1: 37187 keys, 1329391 bytes
+2025/12/09-13:12:01.679 7b20 Compacted 1@1 + 3@2 files => 5730890 bytes
+2025/12/09-13:12:01.680 7b20 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/12/09-13:12:07.079 7b20 Level-0 table #103: started
+2025/12/09-13:12:07.102 7b20 Level-0 table #103: 1061209 bytes OK
+2025/12/09-13:12:07.104 7b20 Delete type=2 #94
+2025/12/09-13:12:07.104 7b20 Delete type=2 #95
+2025/12/09-13:12:07.104 7b20 Delete type=2 #96
+2025/12/09-13:12:07.104 7b20 Delete type=0 #97
+2025/12/09-13:12:07.104 7b20 Delete type=2 #98
+2025/12/09-13:12:07.112 7168 Compacting 1@1 + 3@2 files
+2025/12/09-13:12:07.189 7168 Generated table #104@1: 51272 keys, 2212974 bytes
+2025/12/09-13:12:07.228 7168 Generated table #105@1: 23359 keys, 2197315 bytes
+2025/12/09-13:12:07.279 7168 Generated table #106@1: 50719 keys, 1780622 bytes
+2025/12/09-13:12:07.279 7168 Compacted 1@1 + 3@2 files => 6190911 bytes
+2025/12/09-13:12:07.281 7168 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/12/09-13:12:07.281 7168 Delete type=2 #99
+2025/12/09-13:12:07.281 7168 Delete type=2 #100
+2025/12/09-13:12:07.281 7168 Delete type=2 #101
+2025/12/09-13:12:07.281 7168 Delete type=2 #103
+2025/12/09-13:12:15.612 863c Level-0 table #108: started
+2025/12/09-13:12:15.633 863c Level-0 table #108: 1133366 bytes OK
+2025/12/09-13:12:15.635 863c Delete type=0 #102
+2025/12/09-13:12:15.875 6768 Compacting 1@1 + 3@2 files
+2025/12/09-13:12:15.936 6768 Generated table #109@1: 50787 keys, 2212117 bytes
+2025/12/09-13:12:15.980 6768 Generated table #110@1: 24498 keys, 2189084 bytes
+2025/12/09-13:12:16.036 6768 Generated table #111@1: 58590 keys, 2207903 bytes
+2025/12/09-13:12:16.046 6768 Generated table #112@1: 8301 keys, 188162 bytes
+2025/12/09-13:12:16.046 6768 Compacted 1@1 + 3@2 files => 6797266 bytes
+2025/12/09-13:12:16.048 6768 compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/12/09-13:12:20.871 7168 Level-0 table #114: started
+2025/12/09-13:12:20.891 7168 Level-0 table #114: 1109852 bytes OK
+2025/12/09-13:12:20.892 7168 Delete type=2 #104
+2025/12/09-13:12:20.893 7168 Delete type=2 #105
+2025/12/09-13:12:20.893 7168 Delete type=2 #106
+2025/12/09-13:12:20.893 7168 Delete type=0 #107
+2025/12/09-13:12:20.893 7168 Delete type=2 #108
+2025/12/09-13:12:20.905 863c Compacting 1@1 + 4@2 files
+2025/12/09-13:12:20.969 863c Generated table #115@1: 51451 keys, 2214807 bytes
+2025/12/09-13:12:21.009 863c Generated table #116@1: 24374 keys, 2189325 bytes
+2025/12/09-13:12:21.057 863c Generated table #117@1: 49848 keys, 2195641 bytes
+2025/12/09-13:12:21.084 863c Generated table #118@1: 35535 keys, 824784 bytes
+2025/12/09-13:12:21.084 863c Compacted 1@1 + 4@2 files => 7424557 bytes
+2025/12/09-13:12:21.085 863c compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/12/09-13:12:21.085 863c Delete type=2 #109
+2025/12/09-13:12:21.085 863c Delete type=2 #110
+2025/12/09-13:12:21.085 863c Delete type=2 #111
+2025/12/09-13:12:21.085 863c Delete type=2 #112
+2025/12/09-13:12:21.086 863c Delete type=2 #114
+2025/12/09-13:12:31.672 863c Level-0 table #120: started
+2025/12/09-13:12:31.693 863c Level-0 table #120: 1151098 bytes OK
+2025/12/09-13:12:31.694 863c Delete type=0 #113
+2025/12/09-13:12:31.697 863c Compacting 1@1 + 4@2 files
+2025/12/09-13:12:31.774 863c Generated table #121@1: 50947 keys, 2214579 bytes
+2025/12/09-13:12:31.825 863c Generated table #122@1: 23372 keys, 2181534 bytes
+2025/12/09-13:12:31.879 863c Generated table #123@1: 36897 keys, 2189512 bytes
+2025/12/09-13:12:31.907 863c Level-0 table #126: started
+2025/12/09-13:12:31.926 863c Level-0 table #126: 1462090 bytes OK
+2025/12/09-13:12:31.928 863c Delete type=0 #119
+2025/12/09-13:12:31.952 863c Generated table #124@1: 61304 keys, 1447391 bytes
+2025/12/09-13:12:31.952 863c Compacted 1@1 + 4@2 files => 8033016 bytes
+2025/12/09-13:12:31.953 863c compacted to: files[ 1 0 4 0 0 0 0 ]
+2025/12/09-13:12:31.954 863c Delete type=2 #115
+2025/12/09-13:12:31.954 863c Delete type=2 #116
+2025/12/09-13:12:31.954 863c Delete type=2 #117
+2025/12/09-13:12:31.954 863c Delete type=2 #118
+2025/12/09-13:12:31.954 863c Delete type=2 #120
+2025/12/09-13:12:31.957 863c Moved #126 to level-1 1462090 bytes OK: files[ 0 1 4 0 0 0 0 ]
+2025/12/09-13:12:31.959 863c Compacting 1@1 + 3@2 files
+2025/12/09-13:12:32.020 863c Generated table #127@1: 51254 keys, 2213966 bytes
+2025/12/09-13:12:32.064 863c Generated table #128@1: 28290 keys, 2185582 bytes
+2025/12/09-13:12:32.109 863c Generated table #129@1: 20747 keys, 2185730 bytes
+2025/12/09-13:12:32.142 863c Generated table #130@1: 24131 keys, 1445127 bytes
+2025/12/09-13:12:32.142 863c Compacted 1@1 + 3@2 files => 8030405 bytes
+2025/12/09-13:12:32.143 863c compacted to: files[ 0 0 5 0 0 0 0 ]
+2025/12/09-13:12:32.143 863c Delete type=2 #121
+2025/12/09-13:12:32.143 863c Delete type=2 #122
+2025/12/09-13:12:32.143 863c Delete type=2 #123
+2025/12/09-13:12:32.144 863c Delete type=2 #126
+2025/12/09-13:12:32.171 863c Level-0 table #132: started
+2025/12/09-13:12:32.197 863c Level-0 table #132: 1449909 bytes OK
+2025/12/09-13:12:32.199 863c Delete type=0 #125
+2025/12/09-13:12:32.366 6768 Compacting 1@1 + 3@2 files
+2025/12/09-13:12:32.450 6768 Generated table #133@1: 50880 keys, 2214276 bytes
+2025/12/09-13:12:32.501 6768 Generated table #134@1: 21204 keys, 2174741 bytes
+2025/12/09-13:12:32.537 6768 Generated table #135@1: 10458 keys, 2165738 bytes
+2025/12/09-13:12:32.566 6768 Generated table #136@1: 15779 keys, 882807 bytes
+2025/12/09-13:12:32.566 6768 Compacted 1@1 + 3@2 files => 7437562 bytes
+2025/12/09-13:12:32.567 6768 compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/12/09-13:12:32.568 6768 Delete type=2 #127
+2025/12/09-13:12:32.568 6768 Delete type=2 #128
+2025/12/09-13:12:32.568 6768 Delete type=2 #129
+2025/12/09-13:12:32.568 6768 Delete type=2 #132
+2025/12/09-13:12:33.377 6768 Level-0 table #138: started
+2025/12/09-13:12:33.398 6768 Level-0 table #138: 1188352 bytes OK
+2025/12/09-13:12:33.399 6768 Delete type=0 #131
+2025/12/09-13:12:33.402 6768 Compacting 1@1 + 5@2 files
+2025/12/09-13:12:33.474 6768 Generated table #139@1: 50866 keys, 2213873 bytes
+2025/12/09-13:12:33.520 6768 Generated table #140@1: 25102 keys, 2179304 bytes
+2025/12/09-13:12:33.553 6768 Generated table #141@1: 2605 keys, 2141868 bytes
+2025/12/09-13:12:33.602 6768 Level-0 table #144: started
+2025/12/09-13:12:33.624 6768 Level-0 table #144: 1419732 bytes OK
+2025/12/09-13:12:33.625 6768 Delete type=0 #137
+2025/12/09-13:12:33.637 6768 Generated table #142@1: 36470 keys, 2215269 bytes
+2025/12/09-13:12:33.661 6768 Generated table #145@1: 19803 keys, 980439 bytes
+2025/12/09-13:12:33.661 6768 Compacted 1@1 + 5@2 files => 9730753 bytes
+2025/12/09-13:12:33.662 6768 compacted to: files[ 1 0 6 0 0 0 0 ]
+2025/12/09-13:12:33.662 6768 Delete type=2 #130
+2025/12/09-13:12:33.662 6768 Delete type=2 #133
+2025/12/09-13:12:33.662 6768 Delete type=2 #134
+2025/12/09-13:12:33.662 6768 Delete type=2 #135
+2025/12/09-13:12:33.662 6768 Delete type=2 #136
+2025/12/09-13:12:33.662 6768 Delete type=2 #138
+2025/12/09-13:12:33.665 7168 Moved #144 to level-1 1419732 bytes OK: files[ 0 1 6 0 0 0 0 ]
+2025/12/09-13:12:33.667 7168 Compacting 1@1 + 4@2 files
+2025/12/09-13:12:33.724 7168 Generated table #146@1: 49838 keys, 2211339 bytes
+2025/12/09-13:12:33.788 7168 Generated table #147@1: 33303 keys, 2189837 bytes
+2025/12/09-13:12:33.818 7168 Generated table #148@1: 2612 keys, 2142171 bytes
+2025/12/09-13:12:33.859 7168 Generated table #149@1: 17038 keys, 2179872 bytes
+2025/12/09-13:12:33.909 7168 Generated table #150@1: 25935 keys, 1460911 bytes
+2025/12/09-13:12:33.909 7168 Compacted 1@1 + 4@2 files => 10184130 bytes
+2025/12/09-13:12:33.910 7168 compacted to: files[ 0 0 7 0 0 0 0 ]
+2025/12/09-13:12:34.135 6768 Level-0 table #152: started
+2025/12/09-13:12:34.155 6768 Level-0 table #152: 1054687 bytes OK
+2025/12/09-13:12:34.156 6768 Delete type=2 #139
+2025/12/09-13:12:34.156 6768 Delete type=2 #140
+2025/12/09-13:12:34.156 6768 Delete type=2 #141
+2025/12/09-13:12:34.156 6768 Delete type=2 #142
+2025/12/09-13:12:34.156 6768 Delete type=0 #143
+2025/12/09-13:12:34.156 6768 Delete type=2 #144
+2025/12/09-13:12:34.159 6768 Compacting 1@1 + 5@2 files
+2025/12/09-13:12:34.230 6768 Generated table #153@1: 50452 keys, 2214642 bytes
+2025/12/09-13:12:34.275 6768 Generated table #154@1: 22545 keys, 2176466 bytes
+2025/12/09-13:12:34.304 6768 Generated table #155@1: 2661 keys, 2142555 bytes
+2025/12/09-13:12:34.349 6768 Generated table #156@1: 15883 keys, 2176245 bytes
+2025/12/09-13:12:34.393 6768 Generated table #157@1: 34218 keys, 1725189 bytes
+2025/12/09-13:12:34.393 6768 Compacted 1@1 + 5@2 files => 10435097 bytes
+2025/12/09-13:12:34.394 6768 compacted to: files[ 0 0 7 0 0 0 0 ]
+2025/12/09-13:12:51.029 863c Level-0 table #159: started
+2025/12/09-13:12:51.053 863c Level-0 table #159: 1098990 bytes OK
+2025/12/09-13:12:51.054 863c Delete type=2 #146
+2025/12/09-13:12:51.054 863c Delete type=2 #147
+2025/12/09-13:12:51.054 863c Delete type=2 #148
+2025/12/09-13:12:51.054 863c Delete type=2 #149
+2025/12/09-13:12:51.054 863c Delete type=2 #150
+2025/12/09-13:12:51.054 863c Delete type=0 #151
+2025/12/09-13:12:51.054 863c Delete type=2 #152
+2025/12/09-13:12:51.066 6768 Compacting 1@1 + 7@2 files
+2025/12/09-13:12:51.126 6768 Generated table #160@1: 50739 keys, 2214315 bytes
+2025/12/09-13:12:51.168 6768 Generated table #161@1: 23279 keys, 2176815 bytes
+2025/12/09-13:12:51.189 6768 Generated table #162@1: 2675 keys, 2141982 bytes
+2025/12/09-13:12:51.220 6768 Generated table #163@1: 15296 keys, 2174118 bytes
+2025/12/09-13:12:51.263 6768 Generated table #164@1: 34706 keys, 2203868 bytes
+2025/12/09-13:12:51.325 6768 Generated table #165@1: 85228 keys, 2114159 bytes
+2025/12/09-13:12:51.325 6768 Compacted 1@1 + 7@2 files => 13025257 bytes
+2025/12/09-13:12:51.326 6768 compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/12/09-13:12:51.326 6768 Delete type=2 #124
+2025/12/09-13:12:51.326 6768 Delete type=2 #145
+2025/12/09-13:12:51.326 6768 Delete type=2 #153
+2025/12/09-13:12:51.326 6768 Delete type=2 #154
+2025/12/09-13:12:51.326 6768 Delete type=2 #155
+2025/12/09-13:12:51.326 6768 Delete type=2 #156
+2025/12/09-13:12:51.326 6768 Delete type=2 #157
+2025/12/09-13:12:51.326 6768 Delete type=2 #159
+2025/12/09-13:12:51.833 863c Level-0 table #167: started
+2025/12/09-13:12:51.853 863c Level-0 table #167: 1391852 bytes OK
+2025/12/09-13:12:51.855 863c Delete type=0 #158
+2025/12/09-13:12:51.857 863c Compacting 1@1 + 6@2 files
+2025/12/09-13:12:51.904 863c Generated table #168@1: 48500 keys, 2210522 bytes
+2025/12/09-13:12:51.945 863c Generated table #169@1: 30355 keys, 2191457 bytes
+2025/12/09-13:12:51.967 863c Generated table #170@1: 2574 keys, 2144060 bytes
+2025/12/09-13:12:51.979 863c Level-0 table #173: started
+2025/12/09-13:12:52.000 863c Level-0 table #173: 1437712 bytes OK
+2025/12/09-13:12:52.001 863c Delete type=0 #166
+2025/12/09-13:12:52.013 863c Generated table #171@1: 2713 keys, 2142135 bytes
+2025/12/09-13:12:52.065 863c Generated table #174@1: 30927 keys, 2227247 bytes
+2025/12/09-13:12:52.113 863c Generated table #175@1: 52499 keys, 2197802 bytes
+2025/12/09-13:12:52.135 863c Level-0 table #178: started
+2025/12/09-13:12:52.154 863c Level-0 table #178: 1485017 bytes OK
+2025/12/09-13:12:52.155 863c Delete type=0 #172
+2025/12/09-13:12:52.174 863c Generated table #176@1: 54291 keys, 1283309 bytes
+2025/12/09-13:12:52.174 863c Compacted 1@1 + 6@2 files => 14396532 bytes
+2025/12/09-13:12:52.175 863c compacted to: files[ 2 0 7 0 0 0 0 ]
+2025/12/09-13:12:52.176 863c Delete type=2 #160
+2025/12/09-13:12:52.176 863c Delete type=2 #161
+2025/12/09-13:12:52.176 863c Delete type=2 #162
+2025/12/09-13:12:52.176 863c Delete type=2 #163
+2025/12/09-13:12:52.176 863c Delete type=2 #164
+2025/12/09-13:12:52.176 863c Delete type=2 #165
+2025/12/09-13:12:52.176 863c Delete type=2 #167
+2025/12/09-13:12:52.853 7b20 Compacting 2@0 + 0@1 files
+2025/12/09-13:12:52.892 7b20 Generated table #179@0: 12003 keys, 2166909 bytes
+2025/12/09-13:12:52.916 7b20 Generated table #180@0: 7223 keys, 737871 bytes
+2025/12/09-13:12:52.916 7b20 Compacted 2@0 + 0@1 files => 2904780 bytes
+2025/12/09-13:12:52.917 7b20 compacted to: files[ 0 2 7 0 0 0 0 ]
+2025/12/09-13:12:52.917 7b20 Delete type=2 #173
+2025/12/09-13:12:52.917 7b20 Delete type=2 #178
+2025/12/09-13:12:53.138 7168 Compacting 1@1 + 2@2 files
+2025/12/09-13:12:53.191 7168 Generated table #181@1: 47457 keys, 2211057 bytes
+2025/12/09-13:12:53.241 7168 Generated table #182@1: 41345 keys, 2201454 bytes
+2025/12/09-13:12:53.268 7168 Generated table #183@1: 2047 keys, 2156608 bytes
+2025/12/09-13:12:53.271 7168 Generated table #184@1: 8 keys, 13401 bytes
+2025/12/09-13:12:53.271 7168 Compacted 1@1 + 2@2 files => 6582520 bytes
+2025/12/09-13:12:53.272 7168 compacted to: files[ 0 1 9 0 0 0 0 ]
+2025/12/09-13:12:53.312 6768 Compacting 1@1 + 5@2 files
+2025/12/09-13:12:53.342 6768 Generated table #185@1: 2050 keys, 2155677 bytes
+2025/12/09-13:12:53.360 6768 Level-0 table #188: started
+2025/12/09-13:12:53.381 6768 Level-0 table #188: 1088808 bytes OK
+2025/12/09-13:12:53.383 6768 Delete type=2 #168
+2025/12/09-13:12:53.383 6768 Delete type=2 #169
+2025/12/09-13:12:53.383 6768 Delete type=0 #177
+2025/12/09-13:12:53.383 6768 Delete type=2 #179
+2025/12/09-13:12:53.400 6768 Generated table #186@1: 2569 keys, 2144893 bytes
+2025/12/09-13:12:53.432 6768 Generated table #189@1: 2693 keys, 2144364 bytes
+2025/12/09-13:12:53.484 6768 Generated table #190@1: 27754 keys, 2231567 bytes
+2025/12/09-13:12:53.503 6768 Generated table #191@1: 10426 keys, 743611 bytes
+2025/12/09-13:12:53.503 6768 Compacted 1@1 + 5@2 files => 9420112 bytes
+2025/12/09-13:12:53.504 6768 compacted to: files[ 1 0 9 0 0 0 0 ]
+2025/12/09-13:12:53.506 6768 Moved #188 to level-1 1088808 bytes OK: files[ 0 1 9 0 0 0 0 ]
+2025/12/09-13:12:53.508 6768 Compacting 1@1 + 9@2 files
+2025/12/09-13:12:53.531 6768 Level-0 table #194: started
+2025/12/09-13:12:53.553 6768 Level-0 table #194: 1625927 bytes OK
+2025/12/09-13:12:53.555 6768 Delete type=2 #170
+2025/12/09-13:12:53.555 6768 Delete type=2 #171
+2025/12/09-13:12:53.555 6768 Delete type=2 #174
+2025/12/09-13:12:53.555 6768 Delete type=2 #180
+2025/12/09-13:12:53.555 6768 Delete type=2 #183
+2025/12/09-13:12:53.555 6768 Delete type=2 #184
+2025/12/09-13:12:53.555 6768 Delete type=0 #187
+2025/12/09-13:12:53.602 6768 Generated table #192@1: 49928 keys, 2212634 bytes
+2025/12/09-13:12:53.644 6768 Generated table #195@1: 25654 keys, 2186444 bytes
+2025/12/09-13:12:53.668 6768 Generated table #196@1: 1959 keys, 2154456 bytes
+2025/12/09-13:12:53.691 6768 Generated table #197@1: 2699 keys, 2142767 bytes
+2025/12/09-13:12:53.716 6768 Generated table #198@1: 2752 keys, 2140568 bytes
+2025/12/09-13:12:53.716 6768 Level-0 table #200: started
+2025/12/09-13:12:53.735 6768 Level-0 table #200: 1317153 bytes OK
+2025/12/09-13:12:53.736 6768 Delete type=0 #193
+2025/12/09-13:12:53.792 6768 Generated table #201@1: 29946 keys, 2245443 bytes
+2025/12/09-13:12:53.849 6768 Generated table #202@1: 36081 keys, 2193171 bytes
+2025/12/09-13:12:53.915 6768 Generated table #203@1: 85392 keys, 2011976 bytes
+2025/12/09-13:12:53.915 6768 Compacted 1@1 + 9@2 files => 17287459 bytes
+2025/12/09-13:12:53.916 6768 compacted to: files[ 2 0 8 0 0 0 0 ]
+2025/12/09-13:12:53.917 6768 Compacting 2@0 + 0@1 files
+2025/12/09-13:12:53.950 6768 Generated table #204@0: 12307 keys, 2160153 bytes
+2025/12/09-13:12:53.969 6768 Generated table #205@0: 7543 keys, 764681 bytes
+2025/12/09-13:12:53.969 6768 Compacted 2@0 + 0@1 files => 2924834 bytes
+2025/12/09-13:12:53.970 6768 compacted to: files[ 0 2 8 0 0 0 0 ]
+2025/12/09-13:12:53.970 6768 Delete type=2 #175
+2025/12/09-13:12:53.970 6768 Delete type=2 #176
+2025/12/09-13:12:53.970 6768 Delete type=2 #181
+2025/12/09-13:12:53.970 6768 Delete type=2 #182
+2025/12/09-13:12:53.970 6768 Delete type=2 #185
+2025/12/09-13:12:53.970 6768 Delete type=2 #186
+2025/12/09-13:12:53.970 6768 Delete type=2 #188
+2025/12/09-13:12:53.970 6768 Delete type=2 #189
+2025/12/09-13:12:53.970 6768 Delete type=2 #190
+2025/12/09-13:12:53.970 6768 Delete type=2 #191
+2025/12/09-13:12:53.970 6768 Delete type=2 #194
+2025/12/09-13:12:53.970 6768 Delete type=2 #200
+2025/12/09-13:12:53.974 6768 Compacting 1@1 + 6@2 files
+2025/12/09-13:12:53.998 6768 Generated table #206@1: 1977 keys, 2155386 bytes
+2025/12/09-13:12:54.021 6768 Generated table #207@1: 2702 keys, 2143818 bytes
+2025/12/09-13:12:54.048 6768 Generated table #208@1: 2736 keys, 2141639 bytes
+2025/12/09-13:12:54.111 6768 Generated table #209@1: 27236 keys, 2237876 bytes
+2025/12/09-13:12:54.178 6768 Generated table #210@1: 45376 keys, 2242522 bytes
+2025/12/09-13:12:54.225 6768 Generated table #211@1: 64103 keys, 2203732 bytes
+2025/12/09-13:12:54.241 6768 Generated table #212@1: 22241 keys, 527941 bytes
+2025/12/09-13:12:54.241 6768 Compacted 1@1 + 6@2 files => 13652914 bytes
+2025/12/09-13:12:54.242 6768 compacted to: files[ 0 1 9 0 0 0 0 ]
+2025/12/09-13:12:54.243 6768 Delete type=2 #196
+2025/12/09-13:12:54.243 6768 Delete type=2 #197
+2025/12/09-13:12:54.243 6768 Delete type=2 #198
+2025/12/09-13:12:54.243 6768 Delete type=2 #201
+2025/12/09-13:12:54.243 6768 Delete type=2 #202
+2025/12/09-13:12:54.243 6768 Delete type=2 #203
+2025/12/09-13:12:54.243 6768 Delete type=2 #205
+2025/12/09-13:12:54.342 7b20 Compacting 1@1 + 3@2 files
+2025/12/09-13:12:54.397 7b20 Generated table #213@1: 46909 keys, 2209168 bytes
+2025/12/09-13:12:54.445 7b20 Generated table #214@1: 38837 keys, 2196654 bytes
+2025/12/09-13:12:54.471 7b20 Generated table #215@1: 1904 keys, 2154054 bytes
+2025/12/09-13:12:54.493 7b20 Generated table #216@1: 2208 keys, 2154451 bytes
+2025/12/09-13:12:54.496 7b20 Generated table #217@1: 7 keys, 17569 bytes
+2025/12/09-13:12:54.496 7b20 Compacted 1@1 + 3@2 files => 8731896 bytes
+2025/12/09-13:12:54.497 7b20 compacted to: files[ 0 0 11 0 0 0 0 ]
+2025/12/09-13:12:54.497 7b20 Delete type=2 #192
+2025/12/09-13:12:54.497 7b20 Delete type=2 #195
+2025/12/09-13:12:54.498 7b20 Delete type=2 #204
+2025/12/09-13:12:54.498 7b20 Delete type=2 #206
+2025/12/09-13:12:55.406 7b20 Level-0 table #219: started
+2025/12/09-13:12:55.430 7b20 Level-0 table #219: 1061801 bytes OK
+2025/12/09-13:12:55.432 7b20 Delete type=0 #199
+2025/12/09-13:12:55.435 7b20 Compacting 1@1 + 11@2 files
+2025/12/09-13:12:55.518 7b20 Generated table #220@1: 50482 keys, 2213730 bytes
+2025/12/09-13:12:55.529 7b20 Level-0 table #223: started
+2025/12/09-13:12:55.545 7b20 Level-0 table #223: 763601 bytes OK
+2025/12/09-13:12:55.546 7b20 Delete type=0 #218
+2025/12/09-13:12:55.573 7b20 Generated table #221@1: 23440 keys, 2175254 bytes
+2025/12/09-13:12:55.602 7b20 Generated table #224@1: 1964 keys, 2155148 bytes
+2025/12/09-13:12:55.631 7b20 Generated table #225@1: 2423 keys, 2151943 bytes
+2025/12/09-13:12:55.631 7b20 Level-0 table #227: started
+2025/12/09-13:12:55.650 7b20 Level-0 table #227: 737576 bytes OK
+2025/12/09-13:12:55.651 7b20 Delete type=0 #222
+2025/12/09-13:12:55.689 7b20 Generated table #228@1: 2613 keys, 2143550 bytes
+2025/12/09-13:12:55.718 7b20 Generated table #229@1: 2770 keys, 2142580 bytes
+2025/12/09-13:12:55.789 7b20 Generated table #230@1: 29779 keys, 2248238 bytes
+2025/12/09-13:12:55.867 7b20 Generated table #231@1: 49125 keys, 2244763 bytes
+2025/12/09-13:12:55.947 7b20 Generated table #232@1: 64198 keys, 2203088 bytes
+2025/12/09-13:12:55.971 7b20 Generated table #233@1: 22802 keys, 540731 bytes
+2025/12/09-13:12:55.971 7b20 Compacted 1@1 + 11@2 files => 20219025 bytes
+2025/12/09-13:12:55.972 7b20 compacted to: files[ 2 0 10 0 0 0 0 ]
+2025/12/09-13:12:55.977 863c Compacting 2@0 + 0@1 files
+2025/12/09-13:12:56.018 863c Generated table #234@0: 13934 keys, 1295206 bytes
+2025/12/09-13:12:56.018 863c Compacted 2@0 + 0@1 files => 1295206 bytes
+2025/12/09-13:12:56.019 863c compacted to: files[ 0 1 10 0 0 0 0 ]
+2025/12/09-13:12:56.019 863c Delete type=2 #207
+2025/12/09-13:12:56.019 863c Delete type=2 #208
+2025/12/09-13:12:56.019 863c Delete type=2 #209
+2025/12/09-13:12:56.019 863c Delete type=2 #210
+2025/12/09-13:12:56.019 863c Delete type=2 #211
+2025/12/09-13:12:56.019 863c Delete type=2 #212
+2025/12/09-13:12:56.019 863c Delete type=2 #213
+2025/12/09-13:12:56.019 863c Delete type=2 #214
+2025/12/09-13:12:56.019 863c Delete type=2 #215
+2025/12/09-13:12:56.019 863c Delete type=2 #216
+2025/12/09-13:12:56.019 863c Delete type=2 #217
+2025/12/09-13:12:56.019 863c Delete type=2 #219
+2025/12/09-13:12:56.019 863c Delete type=2 #223
+2025/12/09-13:12:56.019 863c Delete type=2 #227
+2025/12/09-13:12:56.074 863c Compacting 1@1 + 8@2 files
+2025/12/09-13:12:56.130 863c Generated table #235@1: 40933 keys, 2203671 bytes
+2025/12/09-13:12:56.209 863c Generated table #236@1: 42214 keys, 2202706 bytes
+2025/12/09-13:12:56.238 863c Generated table #237@1: 1785 keys, 2149919 bytes
+2025/12/09-13:12:56.270 863c Generated table #238@1: 2254 keys, 2155402 bytes
+2025/12/09-13:12:56.305 863c Generated table #239@1: 2638 keys, 2144408 bytes
+2025/12/09-13:12:56.339 863c Generated table #240@1: 2641 keys, 2144254 bytes
+2025/12/09-13:12:56.390 863c Generated table #241@1: 21129 keys, 2200071 bytes
+2025/12/09-13:12:56.471 863c Generated table #242@1: 29905 keys, 2252231 bytes
+2025/12/09-13:12:56.525 863c Generated table #243@1: 33024 keys, 1318461 bytes
+2025/12/09-13:12:56.525 863c Compacted 1@1 + 8@2 files => 18771123 bytes
+2025/12/09-13:12:56.526 863c compacted to: files[ 0 0 11 0 0 0 0 ]
+2025/12/09-13:12:58.737 7b20 Level-0 table #245: started
+2025/12/09-13:12:58.759 7b20 Level-0 table #245: 996966 bytes OK
+2025/12/09-13:12:58.761 7b20 Delete type=2 #220
+2025/12/09-13:12:58.761 7b20 Delete type=2 #221
+2025/12/09-13:12:58.761 7b20 Delete type=2 #224
+2025/12/09-13:12:58.761 7b20 Delete type=2 #225
+2025/12/09-13:12:58.761 7b20 Delete type=0 #226
+2025/12/09-13:12:58.761 7b20 Delete type=2 #228
+2025/12/09-13:12:58.761 7b20 Delete type=2 #229
+2025/12/09-13:12:58.761 7b20 Delete type=2 #230
+2025/12/09-13:12:58.761 7b20 Delete type=2 #231
+2025/12/09-13:12:58.761 7b20 Delete type=2 #234
+2025/12/09-13:12:58.764 7b20 Compacting 1@0 + 0@1 files
+2025/12/09-13:12:58.795 7b20 Generated table #246@0: 29623 keys, 703843 bytes
+2025/12/09-13:12:58.803 7b20 Generated table #247@0: 167 keys, 3430 bytes
+2025/12/09-13:12:58.803 7b20 Compacted 1@0 + 0@1 files => 707273 bytes
+2025/12/09-13:12:58.805 7b20 compacted to: files[ 0 2 11 0 0 0 0 ]
+2025/12/09-13:12:58.805 7b20 Delete type=2 #245
+2025/12/09-13:12:59.143 863c Compacting 1@1 + 10@2 files
+2025/12/09-13:12:59.203 863c Generated table #248@1: 48027 keys, 2209159 bytes
+2025/12/09-13:12:59.250 863c Generated table #249@1: 32778 keys, 2191489 bytes
+2025/12/09-13:12:59.274 863c Generated table #250@1: 1965 keys, 2154268 bytes
+2025/12/09-13:12:59.296 863c Generated table #251@1: 2288 keys, 2152210 bytes
+2025/12/09-13:12:59.324 863c Generated table #252@1: 2658 keys, 2143081 bytes
+2025/12/09-13:12:59.350 863c Generated table #253@1: 2729 keys, 2140865 bytes
+2025/12/09-13:12:59.401 863c Generated table #254@1: 26568 keys, 2231304 bytes
+2025/12/09-13:12:59.461 863c Generated table #255@1: 49703 keys, 2252676 bytes
+2025/12/09-13:12:59.510 863c Generated table #256@1: 36922 keys, 2208431 bytes
+2025/12/09-13:12:59.539 863c Generated table #257@1: 35325 keys, 833591 bytes
+2025/12/09-13:12:59.539 863c Compacted 1@1 + 10@2 files => 20517074 bytes
+2025/12/09-13:12:59.541 863c compacted to: files[ 0 1 11 0 0 0 0 ]
+2025/12/09-13:12:59.541 863c Delete type=2 #232
+2025/12/09-13:12:59.541 863c Delete type=2 #235
+2025/12/09-13:12:59.541 863c Delete type=2 #236
+2025/12/09-13:12:59.541 863c Delete type=2 #237
+2025/12/09-13:12:59.541 863c Delete type=2 #238
+2025/12/09-13:12:59.541 863c Delete type=2 #239
+2025/12/09-13:12:59.541 863c Delete type=2 #240
+2025/12/09-13:12:59.541 863c Delete type=2 #241
+2025/12/09-13:12:59.541 863c Delete type=2 #242
+2025/12/09-13:12:59.541 863c Delete type=2 #243
+2025/12/09-13:12:59.541 863c Delete type=2 #246
+2025/12/09-13:13:01.376 6768 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:01.400 6768 Generated table #258@1: 22969 keys, 544531 bytes
+2025/12/09-13:13:01.400 6768 Compacted 1@1 + 1@2 files => 544531 bytes
+2025/12/09-13:13:01.401 6768 compacted to: files[ 0 0 11 0 0 0 0 ]
+2025/12/09-13:13:15.053 6768 Level-0 table #260: started
+2025/12/09-13:13:15.075 6768 Level-0 table #260: 1131655 bytes OK
+2025/12/09-13:13:15.077 6768 Delete type=2 #233
+2025/12/09-13:13:15.077 6768 Delete type=0 #244
+2025/12/09-13:13:15.077 6768 Delete type=2 #247
+2025/12/09-13:13:15.079 6768 Compacting 1@0 + 0@1 files
+2025/12/09-13:13:15.119 6768 Generated table #261@0: 26293 keys, 914380 bytes
+2025/12/09-13:13:15.120 6768 Compacted 1@0 + 0@1 files => 914380 bytes
+2025/12/09-13:13:15.121 6768 compacted to: files[ 0 1 11 0 0 0 0 ]
+2025/12/09-13:13:15.125 6768 Compacting 1@1 + 11@2 files
+2025/12/09-13:13:15.195 6768 Generated table #262@1: 49396 keys, 2213682 bytes
+2025/12/09-13:13:15.239 6768 Generated table #263@1: 29177 keys, 2183639 bytes
+2025/12/09-13:13:15.262 6768 Generated table #264@1: 1965 keys, 2156879 bytes
+2025/12/09-13:13:15.265 6768 Level-0 table #267: started
+2025/12/09-13:13:15.283 6768 Level-0 table #267: 1459852 bytes OK
+2025/12/09-13:13:15.285 6768 Delete type=0 #259
+2025/12/09-13:13:15.285 6768 Delete type=2 #260
+2025/12/09-13:13:15.305 6768 Generated table #265@1: 2332 keys, 2151765 bytes
+2025/12/09-13:13:15.327 6768 Generated table #268@1: 2672 keys, 2145223 bytes
+2025/12/09-13:13:15.350 6768 Generated table #269@1: 2713 keys, 2142655 bytes
+2025/12/09-13:13:15.396 6768 Generated table #270@1: 24228 keys, 2214280 bytes
+2025/12/09-13:13:15.449 6768 Generated table #271@1: 30679 keys, 2249590 bytes
+2025/12/09-13:13:15.496 6768 Generated table #272@1: 40874 keys, 2214706 bytes
+2025/12/09-13:13:15.504 6768 Level-0 table #275: started
+2025/12/09-13:13:15.523 6768 Level-0 table #275: 1314185 bytes OK
+2025/12/09-13:13:15.525 6768 Delete type=0 #266
+2025/12/09-13:13:15.576 6768 Generated table #273@1: 79671 keys, 1880479 bytes
+2025/12/09-13:13:15.576 6768 Compacted 1@1 + 11@2 files => 21552898 bytes
+2025/12/09-13:13:15.577 6768 compacted to: files[ 2 0 10 0 0 0 0 ]
+2025/12/09-13:13:15.577 6768 Compacting 2@0 + 0@1 files
+2025/12/09-13:13:15.631 6768 Generated table #276@0: 24858 keys, 2181959 bytes
+2025/12/09-13:13:15.639 6768 Generated table #277@0: 2593 keys, 143341 bytes
+2025/12/09-13:13:15.639 6768 Compacted 2@0 + 0@1 files => 2325300 bytes
+2025/12/09-13:13:15.640 6768 compacted to: files[ 0 2 10 0 0 0 0 ]
+2025/12/09-13:13:15.640 6768 Delete type=2 #248
+2025/12/09-13:13:15.640 6768 Delete type=2 #249
+2025/12/09-13:13:15.640 6768 Delete type=2 #250
+2025/12/09-13:13:15.640 6768 Delete type=2 #251
+2025/12/09-13:13:15.640 6768 Delete type=2 #252
+2025/12/09-13:13:15.640 6768 Delete type=2 #253
+2025/12/09-13:13:15.640 6768 Delete type=2 #254
+2025/12/09-13:13:15.640 6768 Delete type=2 #255
+2025/12/09-13:13:15.640 6768 Delete type=2 #256
+2025/12/09-13:13:15.640 6768 Delete type=2 #257
+2025/12/09-13:13:15.640 6768 Delete type=2 #258
+2025/12/09-13:13:15.640 6768 Delete type=2 #261
+2025/12/09-13:13:15.640 6768 Delete type=2 #267
+2025/12/09-13:13:15.641 6768 Delete type=2 #275
+2025/12/09-13:13:15.645 7168 Compacting 1@1 + 3@2 files
+2025/12/09-13:13:15.698 7168 Generated table #278@1: 29837 keys, 2252200 bytes
+2025/12/09-13:13:15.743 7168 Generated table #279@1: 38106 keys, 2211581 bytes
+2025/12/09-13:13:15.806 7168 Generated table #280@1: 85872 keys, 2025924 bytes
+2025/12/09-13:13:15.806 7168 Compacted 1@1 + 3@2 files => 6489705 bytes
+2025/12/09-13:13:15.807 7168 compacted to: files[ 0 1 10 0 0 0 0 ]
+2025/12/09-13:13:15.807 7168 Delete type=2 #271
+2025/12/09-13:13:15.807 7168 Delete type=2 #272
+2025/12/09-13:13:15.807 7168 Delete type=2 #273
+2025/12/09-13:13:15.807 7168 Delete type=2 #277
+2025/12/09-13:13:16.561 6768 Compacting 1@1 + 8@2 files
+2025/12/09-13:13:16.620 6768 Generated table #281@1: 50346 keys, 2213417 bytes
+2025/12/09-13:13:16.673 6768 Generated table #282@1: 25958 keys, 2178354 bytes
+2025/12/09-13:13:16.698 6768 Generated table #283@1: 1965 keys, 2155035 bytes
+2025/12/09-13:13:16.767 6768 Generated table #284@1: 2291 keys, 2153347 bytes
+2025/12/09-13:13:16.767 6768 Level-0 table #286: started
+2025/12/09-13:13:16.824 6768 Level-0 table #286: 1176030 bytes OK
+2025/12/09-13:13:16.826 6768 Delete type=0 #274
+2025/12/09-13:13:16.853 6768 Generated table #287@1: 2854 keys, 2143279 bytes
+2025/12/09-13:13:16.878 6768 Generated table #288@1: 2571 keys, 2148884 bytes
+2025/12/09-13:13:16.902 6768 Generated table #289@1: 2720 keys, 2140448 bytes
+2025/12/09-13:13:16.956 6768 Generated table #290@1: 32086 keys, 2249902 bytes
+2025/12/09-13:13:16.964 6768 Level-0 table #293: started
+2025/12/09-13:13:16.982 6768 Level-0 table #293: 1410041 bytes OK
+2025/12/09-13:13:16.983 6768 Delete type=0 #285
+2025/12/09-13:13:17.020 6768 Generated table #291@1: 27655 keys, 1987462 bytes
+2025/12/09-13:13:17.020 6768 Compacted 1@1 + 8@2 files => 19370128 bytes
+2025/12/09-13:13:17.022 6768 compacted to: files[ 2 0 11 0 0 0 0 ]
+2025/12/09-13:13:17.022 6768 Compacting 2@0 + 0@1 files
+2025/12/09-13:13:17.069 6768 Generated table #294@0: 27829 keys, 2178133 bytes
+2025/12/09-13:13:17.079 6768 Generated table #295@0: 7979 keys, 253504 bytes
+2025/12/09-13:13:17.081 6768 Generated table #296@0: 420 keys, 6491 bytes
+2025/12/09-13:13:17.081 6768 Compacted 2@0 + 0@1 files => 2438128 bytes
+2025/12/09-13:13:17.085 6768 compacted to: files[ 0 3 11 0 0 0 0 ]
+2025/12/09-13:13:17.085 6768 Delete type=2 #262
+2025/12/09-13:13:17.085 6768 Delete type=2 #263
+2025/12/09-13:13:17.085 6768 Delete type=2 #264
+2025/12/09-13:13:17.085 6768 Delete type=2 #265
+2025/12/09-13:13:17.085 6768 Delete type=2 #268
+2025/12/09-13:13:17.085 6768 Delete type=2 #269
+2025/12/09-13:13:17.085 6768 Delete type=2 #270
+2025/12/09-13:13:17.085 6768 Delete type=2 #276
+2025/12/09-13:13:17.085 6768 Delete type=2 #278
+2025/12/09-13:13:17.085 6768 Delete type=2 #286
+2025/12/09-13:13:17.085 6768 Delete type=2 #293
+2025/12/09-13:13:17.089 863c Compacting 1@1 + 2@2 files
+2025/12/09-13:13:17.143 863c Generated table #297@1: 32231 keys, 2243640 bytes
+2025/12/09-13:13:17.188 863c Generated table #298@1: 41505 keys, 2207219 bytes
+2025/12/09-13:13:17.188 863c Compacted 1@1 + 2@2 files => 4450859 bytes
+2025/12/09-13:13:17.189 863c compacted to: files[ 0 2 11 0 0 0 0 ]
+2025/12/09-13:13:17.189 863c Delete type=2 #279
+2025/12/09-13:13:17.189 863c Delete type=2 #291
+2025/12/09-13:13:17.190 863c Delete type=2 #295
+2025/12/09-13:13:17.218 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:17.281 7b20 Generated table #299@1: 86292 keys, 2036051 bytes
+2025/12/09-13:13:17.281 7b20 Compacted 1@1 + 1@2 files => 2036051 bytes
+2025/12/09-13:13:17.282 7b20 compacted to: files[ 0 1 11 0 0 0 0 ]
+2025/12/09-13:13:17.283 7b20 Delete type=2 #280
+2025/12/09-13:13:17.283 7b20 Delete type=2 #296
+2025/12/09-13:13:18.214 863c Compacting 1@1 + 9@2 files
+2025/12/09-13:13:18.268 863c Generated table #300@1: 49901 keys, 2214705 bytes
+2025/12/09-13:13:18.321 863c Generated table #301@1: 38045 keys, 2196238 bytes
+2025/12/09-13:13:18.348 863c Generated table #302@1: 1893 keys, 2152367 bytes
+2025/12/09-13:13:18.374 863c Generated table #303@1: 2365 keys, 2155857 bytes
+2025/12/09-13:13:18.398 863c Generated table #304@1: 2671 keys, 2142365 bytes
+2025/12/09-13:13:18.423 863c Generated table #305@1: 2628 keys, 2146663 bytes
+2025/12/09-13:13:18.449 863c Generated table #306@1: 2794 keys, 2140715 bytes
+2025/12/09-13:13:18.475 863c Generated table #307@1: 4899 keys, 2146222 bytes
+2025/12/09-13:13:18.527 863c Generated table #308@1: 34915 keys, 2259082 bytes
+2025/12/09-13:13:18.576 863c Generated table #309@1: 31970 keys, 2191896 bytes
+2025/12/09-13:13:18.576 863c Compacted 1@1 + 9@2 files => 21746110 bytes
+2025/12/09-13:13:18.577 863c compacted to: files[ 0 0 12 0 0 0 0 ]
+2025/12/09-13:13:18.578 863c Delete type=2 #281
+2025/12/09-13:13:18.578 863c Delete type=2 #282
+2025/12/09-13:13:18.578 863c Delete type=2 #283
+2025/12/09-13:13:18.578 863c Delete type=2 #284
+2025/12/09-13:13:18.578 863c Delete type=2 #287
+2025/12/09-13:13:18.578 863c Delete type=2 #288
+2025/12/09-13:13:18.578 863c Delete type=2 #289
+2025/12/09-13:13:18.578 863c Delete type=2 #290
+2025/12/09-13:13:18.578 863c Delete type=2 #294
+2025/12/09-13:13:18.578 863c Delete type=2 #297
+2025/12/09-13:13:19.468 7168 Level-0 table #311: started
+2025/12/09-13:13:19.491 7168 Level-0 table #311: 980830 bytes OK
+2025/12/09-13:13:19.493 7168 Delete type=0 #292
+2025/12/09-13:13:19.504 7168 Compacting 1@0 + 0@1 files
+2025/12/09-13:13:19.536 7168 Generated table #312@0: 28181 keys, 464538 bytes
+2025/12/09-13:13:19.548 7168 Generated table #313@0: 9301 keys, 204718 bytes
+2025/12/09-13:13:19.548 7168 Compacted 1@0 + 0@1 files => 669256 bytes
+2025/12/09-13:13:19.549 7168 compacted to: files[ 0 2 12 0 0 0 0 ]
+2025/12/09-13:13:19.566 863c Compacting 1@1 + 10@2 files
+2025/12/09-13:13:19.630 863c Generated table #314@1: 50060 keys, 2213091 bytes
+2025/12/09-13:13:19.671 863c Generated table #315@1: 26039 keys, 2179703 bytes
+2025/12/09-13:13:19.695 863c Generated table #316@1: 1965 keys, 2155405 bytes
+2025/12/09-13:13:19.719 863c Generated table #317@1: 2290 keys, 2152977 bytes
+2025/12/09-13:13:19.745 863c Generated table #318@1: 2883 keys, 2143863 bytes
+2025/12/09-13:13:19.771 863c Generated table #319@1: 2578 keys, 2148075 bytes
+2025/12/09-13:13:19.797 863c Generated table #320@1: 2850 keys, 2142052 bytes
+2025/12/09-13:13:19.835 863c Generated table #321@1: 8059 keys, 2153475 bytes
+2025/12/09-13:13:19.909 863c Generated table #322@1: 34097 keys, 2261656 bytes
+2025/12/09-13:13:19.962 863c Generated table #323@1: 30362 keys, 2061527 bytes
+2025/12/09-13:13:19.962 863c Compacted 1@1 + 10@2 files => 21611824 bytes
+2025/12/09-13:13:19.963 863c compacted to: files[ 0 1 12 0 0 0 0 ]
+2025/12/09-13:13:19.963 863c Delete type=2 #300
+2025/12/09-13:13:19.963 863c Delete type=2 #301
+2025/12/09-13:13:19.963 863c Delete type=2 #302
+2025/12/09-13:13:19.963 863c Delete type=2 #303
+2025/12/09-13:13:19.963 863c Delete type=2 #304
+2025/12/09-13:13:19.963 863c Delete type=2 #305
+2025/12/09-13:13:19.963 863c Delete type=2 #306
+2025/12/09-13:13:19.963 863c Delete type=2 #307
+2025/12/09-13:13:19.963 863c Delete type=2 #308
+2025/12/09-13:13:19.963 863c Delete type=2 #309
+2025/12/09-13:13:19.963 863c Delete type=2 #311
+2025/12/09-13:13:19.963 863c Delete type=2 #312
+2025/12/09-13:13:20.512 7168 Compacting 1@1 + 2@2 files
+2025/12/09-13:13:20.565 7168 Generated table #324@1: 41940 keys, 2217475 bytes
+2025/12/09-13:13:20.640 7168 Generated table #325@1: 94582 keys, 2245050 bytes
+2025/12/09-13:13:20.643 7168 Generated table #326@1: 549 keys, 14963 bytes
+2025/12/09-13:13:20.643 7168 Compacted 1@1 + 2@2 files => 4477488 bytes
+2025/12/09-13:13:20.644 7168 compacted to: files[ 0 0 13 0 0 0 0 ]
+2025/12/09-13:13:20.645 7168 Delete type=2 #298
+2025/12/09-13:13:20.645 7168 Delete type=2 #299
+2025/12/09-13:13:20.645 7168 Delete type=2 #313
+2025/12/09-13:13:21.566 7168 Level-0 table #328: started
+2025/12/09-13:13:21.575 7168 Level-0 table #328: 392550 bytes OK
+2025/12/09-13:13:21.576 7168 Delete type=0 #310
+2025/12/09-13:13:21.576 7168 Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at '\x00\x18\x02\x1f\x03\x00\xb0E\xa0A\xb0yB\x00\x01,\x00O\x00L\x00v\x00c\x00l\x00c\x00M\x00J\x00j\x00E\x00d\x00G\x00g\x00v\x00i\x00t\x00H\x00w\x00C\x00X\x00K\x00g\x00X\x00c\x00P\x00y\x00V\x00d\x00X\x00n\x00m\x000\x00/\x00b\x00N\x00+\x00W\x009\x008\x00V\x00j\x00A\x00k\x00=' @ 1448133 : 0
+2025/12/09-13:13:21.576 7168 Compacting 1@0 + 0@1 files
+2025/12/09-13:13:21.593 7168 Generated table #329@0: 10914 keys, 192676 bytes
+2025/12/09-13:13:21.597 7168 Generated table #330@0: 2158 keys, 56087 bytes
+2025/12/09-13:13:21.597 7168 Compacted 1@0 + 0@1 files => 248763 bytes
+2025/12/09-13:13:21.599 7168 compacted to: files[ 0 2 13 0 0 0 0 ]
+2025/12/09-13:13:21.599 7168 Delete type=2 #328
+2025/12/09-13:13:21.599 7168 Manual compaction at level-0 from '\x00\x18\x02\x1f\x03\x00\xb0E\xa0A\xb0yB\x00\x01,\x00O\x00L\x00v\x00c\x00l\x00c\x00M\x00J\x00j\x00E\x00d\x00G\x00g\x00v\x00i\x00t\x00H\x00w\x00C\x00X\x00K\x00g\x00X\x00c\x00P\x00y\x00V\x00d\x00X\x00n\x00m\x000\x00/\x00b\x00N\x00+\x00W\x009\x008\x00V\x00j\x00A\x00k\x00=' @ 1448133 : 0 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:21.599 7168 Manual compaction at level-1 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x07\x02\x01\x1d\x001\x002\x000\x003\x006\x003\x001\x007\x002\x009\x009\x009\x002\x002\x001\x007\x007\x007\x00@\x00n\x00e\x00w\x00s\x00l\x00e\x00t\x00t\x00e\x00r' @ 1448179 : 1
+2025/12/09-13:13:21.599 7168 Compacting 1@1 + 2@2 files
+2025/12/09-13:13:21.659 7168 Generated table #331@1: 52952 keys, 2219649 bytes
+2025/12/09-13:13:21.693 7168 Generated table #332@1: 19340 keys, 1957986 bytes
+2025/12/09-13:13:21.693 7168 Compacted 1@1 + 2@2 files => 4177635 bytes
+2025/12/09-13:13:21.694 7168 compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/09-13:13:21.694 7168 Manual compaction at level-1 from '\x00\x12\x07\x02\x01\x1d\x001\x002\x000\x003\x006\x003\x001\x007\x002\x009\x009\x009\x002\x002\x001\x007\x007\x007\x00@\x00n\x00e\x00w\x00s\x00l\x00e\x00t\x00t\x00e\x00r' @ 1448179 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:21.750 7168 Level-0 table #334: started
+2025/12/09-13:13:21.771 7168 Level-0 table #334: 1121476 bytes OK
+2025/12/09-13:13:21.775 7168 Delete type=2 #314
+2025/12/09-13:13:21.775 7168 Delete type=2 #315
+2025/12/09-13:13:21.775 7168 Delete type=0 #327
+2025/12/09-13:13:21.775 7168 Delete type=2 #329
+2025/12/09-13:13:21.777 7168 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:21.777 7168 Manual compaction at level-1 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x07\x02\x01\x1d\x001\x002\x000\x003\x006\x003\x003\x000\x006\x005\x004\x006\x000\x007\x009\x007\x004\x004\x00@\x00n\x00e\x00w\x00s\x00l\x00e\x00t\x00t\x00e\x00r' @ 1453223 : 1
+2025/12/09-13:13:21.777 7168 Compacting 1@1 + 2@2 files
+2025/12/09-13:13:21.843 7168 Generated table #335@1: 49561 keys, 2216036 bytes
+2025/12/09-13:13:21.881 7168 Generated table #336@1: 23359 keys, 2091656 bytes
+2025/12/09-13:13:21.881 7168 Compacted 1@1 + 2@2 files => 4307692 bytes
+2025/12/09-13:13:21.882 7168 compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/09-13:13:21.883 7168 Delete type=2 #334
+2025/12/09-13:13:21.883 7168 Manual compaction at level-1 from '\x00\x12\x07\x02\x01\x1d\x001\x002\x000\x003\x006\x003\x003\x000\x006\x005\x004\x006\x000\x007\x009\x007\x004\x004\x00@\x00n\x00e\x00w\x00s\x00l\x00e\x00t\x00t\x00e\x00r' @ 1453223 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:21.972 6768 Level-0 table #338: started
+2025/12/09-13:13:21.982 6768 Level-0 table #338: 314929 bytes OK
+2025/12/09-13:13:21.983 6768 Delete type=2 #331
+2025/12/09-13:13:21.983 6768 Delete type=2 #332
+2025/12/09-13:13:21.983 6768 Delete type=0 #333
+2025/12/09-13:13:21.984 6768 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at '\x00\x18\x00\x00\xc8\x13\x00l\x00r\x00u\x00-\x00m\x00e\x00d\x00i\x00a\x00-\x00m\x00e\x00t\x00a\x00-\x00i\x00n\x00f\x00o' @ 1526585 : 0
+2025/12/09-13:13:21.984 6768 Compacting 1@0 + 1@1 files
+2025/12/09-13:13:22.009 6768 Generated table #339@0: 26888 keys, 267262 bytes
+2025/12/09-13:13:22.015 6768 Generated table #340@0: 2183 keys, 56382 bytes
+2025/12/09-13:13:22.015 6768 Compacted 1@0 + 1@1 files => 323644 bytes
+2025/12/09-13:13:22.016 6768 compacted to: files[ 0 2 13 0 0 0 0 ]
+2025/12/09-13:13:22.016 6768 Delete type=2 #338
+2025/12/09-13:13:22.016 6768 Manual compaction at level-0 from '\x00\x18\x00\x00\xc8\x13\x00l\x00r\x00u\x00-\x00m\x00e\x00d\x00i\x00a\x00-\x00m\x00e\x00t\x00a\x00-\x00i\x00n\x00f\x00o' @ 1526585 : 0 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:22.016 6768 Manual compaction at level-1 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at '\x00\x18\x02\x1f\x03\x00\xb0E\xa0A\xb0yB\x00\x01,\x00O\x00L\x00v\x00c\x00l\x00c\x00M\x00J\x00j\x00E\x00d\x00G\x00g\x00v\x00i\x00t\x00H\x00w\x00C\x00X\x00K\x00g\x00X\x00c\x00P\x00y\x00V\x00d\x00X\x00n\x00m\x000\x00/\x00b\x00N\x00+\x00W\x009\x008\x00V\x00j\x00A\x00k\x00=' @ 1448133 : 0
+2025/12/09-13:13:22.016 6768 Compacting 1@1 + 3@2 files
+2025/12/09-13:13:22.071 6768 Generated table #341@1: 41950 keys, 2216782 bytes
+2025/12/09-13:13:22.137 6768 Generated table #342@1: 93942 keys, 2244957 bytes
+2025/12/09-13:13:22.142 6768 Generated table #343@1: 3264 keys, 77940 bytes
+2025/12/09-13:13:22.142 6768 Compacted 1@1 + 3@2 files => 4539679 bytes
+2025/12/09-13:13:22.143 6768 compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/09-13:13:22.144 6768 Delete type=2 #340
+2025/12/09-13:13:22.144 6768 Manual compaction at level-1 from '\x00\x18\x02\x1f\x03\x00\xb0E\xa0A\xb0yB\x00\x01,\x00O\x00L\x00v\x00c\x00l\x00c\x00M\x00J\x00j\x00E\x00d\x00G\x00g\x00v\x00i\x00t\x00H\x00w\x00C\x00X\x00K\x00g\x00X\x00c\x00P\x00y\x00V\x00d\x00X\x00n\x00m\x000\x00/\x00b\x00N\x00+\x00W\x009\x008\x00V\x00j\x00A\x00k\x00=' @ 1448133 : 0 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:22.144 8430 Level-0 table #345: started
+2025/12/09-13:13:22.149 8430 Level-0 table #345: 12663 bytes OK
+2025/12/09-13:13:22.150 8430 Delete type=2 #324
+2025/12/09-13:13:22.150 8430 Delete type=2 #325
+2025/12/09-13:13:22.150 8430 Delete type=2 #326
+2025/12/09-13:13:22.150 8430 Delete type=2 #330
+2025/12/09-13:13:22.150 8430 Delete type=0 #337
+2025/12/09-13:13:22.151 8430 Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at '\x00\x16\x01\x1f\x01P\x00[\x00"\x00r\x00e\x00s\x00e\x00n\x00d\x00U\x00s\x00e\x00r\x00M\x00s\x00g\x00"\x00,\x00"\x00r\x00e\x00s\x00e\x00n\x00d\x00U\x00s\x00e\x00r\x00M\x00s\x00g\x00-\x00t\x00r\x00u\x00e\x00_\x005\x005\x009\x002\x009\x009\x009\x001\x003\x000\x008\x003\x008\x00@\x00c\x00.\x00u\x00s\x00_\x003\x00E\x00B\x000\x001\x006\x008\x002\x005\x008\x001\x005\x001\x00F\x000\x00C\x000\x006\x001\x002\x00B\x004\x00"\x00]\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 1526935 : 0
+2025/12/09-13:13:22.151 8430 Compacting 1@0 + 1@1 files
+2025/12/09-13:13:22.175 8430 Generated table #346@0: 27173 keys, 278883 bytes
+2025/12/09-13:13:22.186 8430 Generated table #347@0: 18 keys, 707 bytes
+2025/12/09-13:13:22.186 8430 Compacted 1@0 + 1@1 files => 279590 bytes
+2025/12/09-13:13:22.187 8430 compacted to: files[ 0 2 13 0 0 0 0 ]
+2025/12/09-13:13:22.187 8430 Delete type=2 #345
+2025/12/09-13:13:22.187 8430 Manual compaction at level-0 from '\x00\x16\x01\x1f\x01P\x00[\x00"\x00r\x00e\x00s\x00e\x00n\x00d\x00U\x00s\x00e\x00r\x00M\x00s\x00g\x00"\x00,\x00"\x00r\x00e\x00s\x00e\x00n\x00d\x00U\x00s\x00e\x00r\x00M\x00s\x00g\x00-\x00t\x00r\x00u\x00e\x00_\x005\x005\x009\x002\x009\x009\x009\x001\x003\x000\x008\x003\x008\x00@\x00c\x00.\x00u\x00s\x00_\x003\x00E\x00B\x000\x001\x006\x008\x002\x005\x008\x001\x005\x001\x00F\x000\x00C\x000\x006\x001\x002\x00B\x004\x00"\x00]\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 1526935 : 0 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:22.187 8430 Manual compaction at level-1 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at '\x00\x16\x01\x1f\x01P\x00[\x00"\x00r\x00e\x00s\x00e\x00n\x00d\x00U\x00s\x00e\x00r\x00M\x00s\x00g\x00"\x00,\x00"\x00r\x00e\x00s\x00e\x00n\x00d\x00U\x00s\x00e\x00r\x00M\x00s\x00g\x00-\x00t\x00r\x00u\x00e\x00_\x005\x005\x009\x002\x009\x009\x009\x001\x003\x000\x008\x003\x008\x00@\x00c\x00.\x00u\x00s\x00_\x003\x00E\x00B\x000\x001\x006\x008\x002\x005\x008\x001\x005\x001\x00F\x000\x00C\x000\x006\x001\x002\x00B\x004\x00"\x00]\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 1526935 : 0
+2025/12/09-13:13:22.187 8430 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:22.235 8430 Generated table #348@1: 41932 keys, 2216160 bytes
+2025/12/09-13:13:22.235 8430 Compacted 1@1 + 1@2 files => 2216160 bytes
+2025/12/09-13:13:22.236 8430 compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/09-13:13:22.236 8430 Delete type=2 #347
+2025/12/09-13:13:22.236 8430 Manual compaction at level-1 from '\x00\x16\x01\x1f\x01P\x00[\x00"\x00r\x00e\x00s\x00e\x00n\x00d\x00U\x00s\x00e\x00r\x00M\x00s\x00g\x00"\x00,\x00"\x00r\x00e\x00s\x00e\x00n\x00d\x00U\x00s\x00e\x00r\x00M\x00s\x00g\x00-\x00t\x00r\x00u\x00e\x00_\x005\x005\x009\x002\x009\x009\x009\x001\x003\x000\x008\x003\x008\x00@\x00c\x00.\x00u\x00s\x00_\x003\x00E\x00B\x000\x001\x006\x008\x002\x005\x008\x001\x005\x001\x00F\x000\x00C\x000\x006\x001\x002\x00B\x004\x00"\x00]\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 1526935 : 0 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:22.237 7b20 Level-0 table #350: started
+2025/12/09-13:13:22.248 7b20 Level-0 table #350: 614 bytes OK
+2025/12/09-13:13:22.249 7b20 Delete type=2 #339
+2025/12/09-13:13:22.249 7b20 Delete type=2 #341
+2025/12/09-13:13:22.249 7b20 Delete type=0 #344
+2025/12/09-13:13:22.250 7b20 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1526971 : 0
+2025/12/09-13:13:22.250 7b20 Compacting 1@0 + 1@1 files
+2025/12/09-13:13:22.277 7b20 Generated table #351@0: 27173 keys, 278846 bytes
+2025/12/09-13:13:22.289 7b20 Generated table #352@0: 32 keys, 548 bytes
+2025/12/09-13:13:22.289 7b20 Compacted 1@0 + 1@1 files => 279394 bytes
+2025/12/09-13:13:22.291 7b20 compacted to: files[ 0 2 13 0 0 0 0 ]
+2025/12/09-13:13:22.291 7b20 Delete type=2 #350
+2025/12/09-13:13:22.291 7b20 Manual compaction at level-0 from '\x00\x15\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1526971 : 0 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:22.291 7b20 Manual compaction at level-1 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1526971 : 0
+2025/12/09-13:13:22.291 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:22.366 7b20 Generated table #353@1: 41900 keys, 2215568 bytes
+2025/12/09-13:13:22.366 7b20 Compacted 1@1 + 1@2 files => 2215568 bytes
+2025/12/09-13:13:22.367 7b20 compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/09-13:13:22.367 7b20 Delete type=2 #352
+2025/12/09-13:13:22.367 7b20 Manual compaction at level-1 from '\x00\x15\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1526971 : 0 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:22.368 7b20 Level-0 table #355: started
+2025/12/09-13:13:22.381 7b20 Level-0 table #355: 400 bytes OK
+2025/12/09-13:13:22.382 7b20 Delete type=2 #346
+2025/12/09-13:13:22.382 7b20 Delete type=2 #348
+2025/12/09-13:13:22.382 7b20 Delete type=0 #349
+2025/12/09-13:13:22.383 7b20 Manual compaction at level-0 from '\x00\x0e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0e\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1526989 : 0
+2025/12/09-13:13:22.383 7b20 Compacting 1@0 + 1@1 files
+2025/12/09-13:13:22.411 7b20 Generated table #356@0: 27187 keys, 278902 bytes
+2025/12/09-13:13:22.411 7b20 Compacted 1@0 + 1@1 files => 278902 bytes
+2025/12/09-13:13:22.412 7b20 compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/09-13:13:22.413 7b20 Delete type=2 #355
+2025/12/09-13:13:22.413 7b20 Manual compaction at level-0 from '\x00\x0e\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1526989 : 0 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:22.413 7b20 Manual compaction at level-1 from '\x00\x0e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x04$\x01\x04\x00z\x00j\x00Q\x00f\x00\x01\x12\x003\x003\x005\x009\x005\x002\x006\x007\x007\x004\x008\x000\x000\x009\x00@\x00l\x00i\x00d' @ 1502699 : 1
+2025/12/09-13:13:22.413 7b20 Compacting 1@1 + 2@2 files
+2025/12/09-13:13:22.495 7b20 Generated table #357@1: 45975 keys, 2221982 bytes
+2025/12/09-13:13:22.512 7b20 Generated table #358@1: 3405 keys, 1260211 bytes
+2025/12/09-13:13:22.512 7b20 Compacted 1@1 + 2@2 files => 3482193 bytes
+2025/12/09-13:13:22.513 7b20 compacted to: files[ 0 0 13 0 0 0 0 ]
+2025/12/09-13:13:22.513 7b20 Delete type=2 #356
+2025/12/09-13:13:22.514 7b20 Manual compaction at level-1 from '\x00\x12\x04$\x01\x04\x00z\x00j\x00Q\x00f\x00\x01\x12\x003\x003\x005\x009\x005\x002\x006\x007\x007\x004\x008\x000\x000\x009\x00@\x00l\x00i\x00d' @ 1502699 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:22.514 7b20 Level-0 table #360: started
+2025/12/09-13:13:22.525 7b20 Level-0 table #360: 508 bytes OK
+2025/12/09-13:13:22.527 7b20 Delete type=2 #335
+2025/12/09-13:13:22.527 7b20 Delete type=2 #336
+2025/12/09-13:13:22.527 7b20 Delete type=2 #351
+2025/12/09-13:13:22.527 7b20 Delete type=0 #354
+2025/12/09-13:13:22.528 7b20 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at '\x00\x14\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 1527014 : 0
+2025/12/09-13:13:22.528 7b20 Compacting 1@0 + 0@1 files
+2025/12/09-13:13:22.532 7b20 Generated table #361@0: 25 keys, 508 bytes
+2025/12/09-13:13:22.532 7b20 Compacted 1@0 + 0@1 files => 508 bytes
+2025/12/09-13:13:22.533 7b20 compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/09-13:13:22.534 7b20 Delete type=2 #360
+2025/12/09-13:13:22.534 7b20 Manual compaction at level-0 from '\x00\x14\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 1527014 : 0 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:22.534 7b20 Manual compaction at level-1 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at '\x00\x14\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 1527014 : 0
+2025/12/09-13:13:22.534 7b20 Compacting 1@1 + 11@2 files
+2025/12/09-13:13:22.591 7b20 Generated table #362@1: 45971 keys, 2221924 bytes
+2025/12/09-13:13:22.616 7b20 Generated table #363@1: 4218 keys, 2148150 bytes
+2025/12/09-13:13:22.644 7b20 Generated table #364@1: 2077 keys, 2157937 bytes
+2025/12/09-13:13:22.669 7b20 Generated table #365@1: 2563 keys, 2147127 bytes
+2025/12/09-13:13:22.695 7b20 Generated table #366@1: 2805 keys, 2142885 bytes
+2025/12/09-13:13:22.720 7b20 Generated table #367@1: 2620 keys, 2147655 bytes
+2025/12/09-13:13:22.744 7b20 Generated table #368@1: 2804 keys, 2140656 bytes
+2025/12/09-13:13:22.786 7b20 Generated table #369@1: 23069 keys, 2201201 bytes
+2025/12/09-13:13:22.844 7b20 Generated table #370@1: 32811 keys, 2258771 bytes
+2025/12/09-13:13:22.917 7b20 Generated table #371@1: 52929 keys, 2263014 bytes
+2025/12/09-13:13:22.935 7b20 Generated table #372@1: 4472 keys, 1087963 bytes
+2025/12/09-13:13:22.935 7b20 Compacted 1@1 + 11@2 files => 22917283 bytes
+2025/12/09-13:13:22.936 7b20 compacted to: files[ 0 0 13 0 0 0 0 ]
+2025/12/09-13:13:22.936 7b20 Delete type=2 #361
+2025/12/09-13:13:22.936 7b20 Manual compaction at level-1 from '\x00\x14\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 1527014 : 0 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:23.227 8430 Level-0 table #374: started
+2025/12/09-13:13:23.251 8430 Level-0 table #374: 1229775 bytes OK
+2025/12/09-13:13:23.253 8430 Delete type=2 #316
+2025/12/09-13:13:23.253 8430 Delete type=2 #317
+2025/12/09-13:13:23.253 8430 Delete type=2 #318
+2025/12/09-13:13:23.253 8430 Delete type=2 #319
+2025/12/09-13:13:23.253 8430 Delete type=2 #320
+2025/12/09-13:13:23.253 8430 Delete type=2 #321
+2025/12/09-13:13:23.253 8430 Delete type=2 #322
+2025/12/09-13:13:23.253 8430 Delete type=2 #323
+2025/12/09-13:13:23.253 8430 Delete type=2 #353
+2025/12/09-13:13:23.253 8430 Delete type=2 #357
+2025/12/09-13:13:23.253 8430 Delete type=2 #358
+2025/12/09-13:13:23.253 8430 Delete type=0 #359
+2025/12/09-13:13:23.282 8430 Level-0 table #376: started
+2025/12/09-13:13:23.291 8430 Level-0 table #376: 349804 bytes OK
+2025/12/09-13:13:23.293 8430 Delete type=0 #373
+2025/12/09-13:13:23.293 8430 Manual compaction at level-0 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at '\x00\x17\x03!\x06\x09\xff\xfc\x0d\xa31\xd7\x1d[\\x00\x03\x00\x00\x00\x00\x00\xa0l@' @ 1626601 : 0
+2025/12/09-13:13:23.293 8430 Compacting 2@0 + 0@1 files
+2025/12/09-13:13:23.296 8430 Generated table #377@0: 421 keys, 7709 bytes
+2025/12/09-13:13:23.391 8430 Generated table #378@0: 99031 keys, 1569812 bytes
+2025/12/09-13:13:23.391 8430 Compacted 2@0 + 0@1 files => 1577521 bytes
+2025/12/09-13:13:23.393 8430 compacted to: files[ 0 2 13 0 0 0 0 ]
+2025/12/09-13:13:23.393 8430 Delete type=2 #374
+2025/12/09-13:13:23.393 8430 Delete type=2 #376
+2025/12/09-13:13:23.393 8430 Manual compaction at level-0 from '\x00\x17\x03!\x06\x09\xff\xfc\x0d\xa31\xd7\x1d[\\x00\x03\x00\x00\x00\x00\x00\xa0l@' @ 1626601 : 0 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:23.393 8430 Manual compaction at level-1 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at '\x00(\x00\x00\x05' @ 1527878 : 1
+2025/12/09-13:13:23.393 8430 Compacting 1@1 + 3@2 files
+2025/12/09-13:13:23.485 8430 Generated table #379@1: 3283 keys, 300604 bytes
+2025/12/09-13:13:23.485 8430 Compacted 1@1 + 3@2 files => 300604 bytes
+2025/12/09-13:13:23.486 8430 compacted to: files[ 0 1 11 0 0 0 0 ]
+2025/12/09-13:13:23.487 8430 Delete type=2 #378
+2025/12/09-13:13:23.487 8430 Manual compaction at level-1 from '\x00(\x00\x00\x05' @ 1527878 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:23.655 8430 Level-0 table #381: started
+2025/12/09-13:13:23.680 8430 Level-0 table #381: 1272067 bytes OK
+2025/12/09-13:13:23.681 8430 Delete type=2 #342
+2025/12/09-13:13:23.681 8430 Delete type=2 #343
+2025/12/09-13:13:23.681 8430 Delete type=2 #372
+2025/12/09-13:13:23.681 8430 Delete type=0 #375
+2025/12/09-13:13:23.761 8430 Level-0 table #383: started
+2025/12/09-13:13:23.786 8430 Level-0 table #383: 1366738 bytes OK
+2025/12/09-13:13:23.788 8430 Delete type=0 #380
+2025/12/09-13:13:23.832 8430 Level-0 table #385: started
+2025/12/09-13:13:23.857 8430 Level-0 table #385: 1207688 bytes OK
+2025/12/09-13:13:23.859 8430 Delete type=0 #382
+2025/12/09-13:13:23.961 8430 Level-0 table #387: started
+2025/12/09-13:13:23.987 8430 Level-0 table #387: 1486922 bytes OK
+2025/12/09-13:13:23.989 8430 Delete type=0 #384
+2025/12/09-13:13:24.042 8430 Level-0 table #389: started
+2025/12/09-13:13:24.057 8430 Level-0 table #389: 641790 bytes OK
+2025/12/09-13:13:24.058 8430 Delete type=0 #386
+2025/12/09-13:13:24.059 8430 Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x08\x01\x01E\x00f\x00a\x00l\x00s\x00e\x00_\x001\x002\x000\x003\x006\x003\x004\x001\x007\x007\x005\x009\x006\x006\x001\x003\x001\x005\x00@\x00g\x00.\x00u\x00s\x00_\x003\x00A\x006\x008\x00F\x00E\x006\x003\x001\x007\x009\x007\x006\x003\x00C\x00A\x00B\x007\x00A\x00B\x00_\x006\x003\x002\x000\x000\x006\x007\x008\x006\x004\x001\x006\x006\x008\x00@\x00l\x00i\x00d' @ 1675986 : 0
+2025/12/09-13:13:24.059 8430 Compacting 1@0 + 1@1 files
+2025/12/09-13:13:24.108 8430 Generated table #390@0: 49806 keys, 1278815 bytes
+2025/12/09-13:13:24.108 8430 Compacted 1@0 + 1@1 files => 1278815 bytes
+2025/12/09-13:13:24.109 8430 compacted to: files[ 0 5 11 0 0 0 0 ]
+2025/12/09-13:13:24.109 8430 Delete type=2 #381
+2025/12/09-13:13:24.109 8430 Manual compaction at level-0 from '\x00\x12\x08\x01\x01E\x00f\x00a\x00l\x00s\x00e\x00_\x001\x002\x000\x003\x006\x003\x004\x001\x007\x007\x005\x009\x006\x006\x001\x003\x001\x005\x00@\x00g\x00.\x00u\x00s\x00_\x003\x00A\x006\x008\x00F\x00E\x006\x003\x001\x007\x009\x007\x006\x003\x00C\x00A\x00B\x007\x00A\x00B\x00_\x006\x003\x002\x000\x000\x006\x007\x008\x006\x004\x001\x006\x006\x008\x00@\x00l\x00i\x00d' @ 1675986 : 0 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.110 8430 Manual compaction at level-1 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x08!\x01#\x001\x002\x000\x003\x006\x003\x004\x001\x007\x007\x005\x009\x006\x006\x001\x003\x001\x005\x00@\x00g\x00.\x00u\x00s\x00_\x001\x00_\x007\x006\x009\x001\x00a\x00f\x007\x00d\x002\x00\x01R\x00f\x00a\x00l\x00s\x00e\x00_\x001\x002\x000\x003\x006\x003\x004\x001\x007\x007\x005\x009\x006\x006\x001\x003\x001\x005\x00@\x00g\x00.\x00u\x00s\x00_\x00A\x00C\x004\x00E\x005\x00D\x008\x004\x007\x006\x008\x009\x001\x00C\x00D\x00F\x008\x006\x006\x007\x002\x00F\x00D\x00C\x004\x00A\x002\x009\x008\x00E\x000\x000\x00_\x002\x007\x000\x000\x004\x006\x005\x002\x001\x007\x003\x003\x003\x006\x002\x00@\x00l\x00i\x00d' @ 1708915 : 0
+2025/12/09-13:13:24.110 8430 Compacting 2@1 + 8@2 files
+2025/12/09-13:13:24.218 8430 Generated table #391@1: 4214 keys, 362846 bytes
+2025/12/09-13:13:24.218 8430 Compacted 2@1 + 8@2 files => 362846 bytes
+2025/12/09-13:13:24.220 8430 compacted to: files[ 0 3 4 0 0 0 0 ]
+2025/12/09-13:13:24.220 8430 Delete type=2 #383
+2025/12/09-13:13:24.220 8430 Delete type=2 #390
+2025/12/09-13:13:24.221 8430 Manual compaction at level-1 from '\x00\x12\x08!\x01#\x001\x002\x000\x003\x006\x003\x004\x001\x007\x007\x005\x009\x006\x006\x001\x003\x001\x005\x00@\x00g\x00.\x00u\x00s\x00_\x001\x00_\x007\x006\x009\x001\x00a\x00f\x007\x00d\x002\x00\x01R\x00f\x00a\x00l\x00s\x00e\x00_\x001\x002\x000\x003\x006\x003\x004\x001\x007\x007\x005\x009\x006\x006\x001\x003\x001\x005\x00@\x00g\x00.\x00u\x00s\x00_\x00A\x00C\x004\x00E\x005\x00D\x008\x004\x007\x006\x008\x009\x001\x00C\x00D\x00F\x008\x006\x006\x007\x002\x00F\x00D\x00C\x004\x00A\x002\x009\x008\x00E\x000\x000\x00_\x002\x007\x000\x000\x004\x006\x005\x002\x001\x007\x003\x003\x003\x006\x002\x00@\x00l\x00i\x00d' @ 1708915 : 0 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x19\x01\x01\x09\x009\x009\x009\x009\x009\x001\x002\x007\x007' @ 1773414 : 0
+2025/12/09-13:13:24.221 8430 Compacting 2@1 + 3@2 files
+2025/12/09-13:13:24.325 8430 Generated table #392@1: 25455 keys, 908658 bytes
+2025/12/09-13:13:24.325 8430 Compacted 2@1 + 3@2 files => 908658 bytes
+2025/12/09-13:13:24.326 8430 compacted to: files[ 0 1 2 0 0 0 0 ]
+2025/12/09-13:13:24.326 8430 Delete type=2 #385
+2025/12/09-13:13:24.326 8430 Delete type=2 #387
+2025/12/09-13:13:24.326 8430 Delete type=2 #391
+2025/12/09-13:13:24.327 8430 Manual compaction at level-1 from '\x00\x12\x19\x01\x01\x09\x009\x009\x009\x009\x009\x001\x002\x007\x007' @ 1773414 : 0 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12R\x02\x01\x1c\x005\x005\x009\x002\x009\x004\x003\x009\x007\x004\x004\x004\x00-\x001\x004\x009\x005\x002\x009\x000\x009\x004\x005\x00@\x00g\x00.\x00u\x00s' @ 1801164 : 0
+2025/12/09-13:13:24.327 8430 Compacting 1@1 + 2@2 files
+2025/12/09-13:13:24.363 8430 Generated table #393@1: 988 keys, 66771 bytes
+2025/12/09-13:13:24.363 8430 Compacted 1@1 + 2@2 files => 66771 bytes
+2025/12/09-13:13:24.364 8430 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.364 8430 Delete type=2 #389
+2025/12/09-13:13:24.364 8430 Delete type=2 #392
+2025/12/09-13:13:24.365 8430 Manual compaction at level-1 from '\x00\x12R\x02\x01\x1c\x005\x005\x009\x002\x009\x004\x003\x009\x007\x004\x004\x004\x00-\x001\x004\x009\x005\x002\x009\x000\x009\x004\x005\x00@\x00g\x00.\x00u\x00s' @ 1801164 : 0 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.368 8430 Level-0 table #395: started
+2025/12/09-13:13:24.375 8430 Level-0 table #395: 113121 bytes OK
+2025/12/09-13:13:24.377 8430 Delete type=2 #362
+2025/12/09-13:13:24.377 8430 Delete type=2 #363
+2025/12/09-13:13:24.377 8430 Delete type=2 #364
+2025/12/09-13:13:24.377 8430 Delete type=2 #365
+2025/12/09-13:13:24.377 8430 Delete type=2 #366
+2025/12/09-13:13:24.377 8430 Delete type=2 #367
+2025/12/09-13:13:24.377 8430 Delete type=2 #368
+2025/12/09-13:13:24.377 8430 Delete type=2 #369
+2025/12/09-13:13:24.377 8430 Delete type=2 #370
+2025/12/09-13:13:24.377 8430 Delete type=2 #371
+2025/12/09-13:13:24.377 8430 Delete type=2 #377
+2025/12/09-13:13:24.377 8430 Delete type=2 #379
+2025/12/09-13:13:24.377 8430 Delete type=0 #388
+2025/12/09-13:13:24.381 8430 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.381 8430 Manual compaction at level-1 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at '\x00+\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 1804817 : 1
+2025/12/09-13:13:24.381 8430 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.388 8430 Generated table #396@1: 4146 keys, 78539 bytes
+2025/12/09-13:13:24.388 8430 Compacted 1@1 + 1@2 files => 78539 bytes
+2025/12/09-13:13:24.389 8430 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.389 8430 Delete type=2 #395
+2025/12/09-13:13:24.389 8430 Manual compaction at level-1 from '\x00+\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 1804817 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.390 8430 Level-0 table #398: started
+2025/12/09-13:13:24.400 8430 Level-0 table #398: 1544 bytes OK
+2025/12/09-13:13:24.401 8430 Delete type=2 #393
+2025/12/09-13:13:24.401 8430 Delete type=0 #394
+2025/12/09-13:13:24.401 8430 Manual compaction at level-0 from '\x00\x13\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.402 8430 Manual compaction at level-1 from '\x00\x13\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at '\x00'\x05\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1805101 : 1
+2025/12/09-13:13:24.402 8430 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.409 8430 Generated table #399@1: 4156 keys, 79277 bytes
+2025/12/09-13:13:24.409 8430 Compacted 1@1 + 1@2 files => 79277 bytes
+2025/12/09-13:13:24.410 8430 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.410 8430 Delete type=2 #398
+2025/12/09-13:13:24.410 8430 Manual compaction at level-1 from '\x00'\x05\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 1805101 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.411 863c Level-0 table #401: started
+2025/12/09-13:13:24.421 863c Level-0 table #401: 1629 bytes OK
+2025/12/09-13:13:24.422 863c Delete type=2 #396
+2025/12/09-13:13:24.422 863c Delete type=0 #397
+2025/12/09-13:13:24.423 863c Manual compaction at level-0 from '\x00\x1a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.423 863c Manual compaction at level-1 from '\x00\x1a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1a\x00\x00\x05' @ 1805325 : 0
+2025/12/09-13:13:24.423 863c Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.429 863c Generated table #402@1: 3980 keys, 76780 bytes
+2025/12/09-13:13:24.429 863c Compacted 1@1 + 1@2 files => 76780 bytes
+2025/12/09-13:13:24.430 863c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.430 863c Delete type=2 #401
+2025/12/09-13:13:24.430 863c Manual compaction at level-1 from '\x00\x1a\x00\x00\x05' @ 1805325 : 0 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.431 863c Level-0 table #404: started
+2025/12/09-13:13:24.440 863c Level-0 table #404: 252 bytes OK
+2025/12/09-13:13:24.443 863c Delete type=2 #399
+2025/12/09-13:13:24.443 863c Delete type=0 #400
+2025/12/09-13:13:24.443 863c Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.443 863c Manual compaction at level-1 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1b\x00\x00\x05' @ 1805331 : 0
+2025/12/09-13:13:24.443 863c Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.449 863c Generated table #405@1: 3974 keys, 76908 bytes
+2025/12/09-13:13:24.449 863c Compacted 1@1 + 1@2 files => 76908 bytes
+2025/12/09-13:13:24.450 863c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.450 863c Delete type=2 #404
+2025/12/09-13:13:24.450 863c Manual compaction at level-1 from '\x00\x1b\x00\x00\x05' @ 1805331 : 0 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.451 863c Level-0 table #407: started
+2025/12/09-13:13:24.461 863c Level-0 table #407: 252 bytes OK
+2025/12/09-13:13:24.462 863c Delete type=2 #402
+2025/12/09-13:13:24.462 863c Delete type=0 #403
+2025/12/09-13:13:24.462 863c Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.462 863c Manual compaction at level-1 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1c\x00\x00\x05' @ 1805337 : 0
+2025/12/09-13:13:24.462 863c Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.468 863c Generated table #408@1: 3968 keys, 76757 bytes
+2025/12/09-13:13:24.468 863c Compacted 1@1 + 1@2 files => 76757 bytes
+2025/12/09-13:13:24.471 863c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.471 863c Delete type=2 #407
+2025/12/09-13:13:24.471 863c Manual compaction at level-1 from '\x00\x1c\x00\x00\x05' @ 1805337 : 0 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.472 8430 Level-0 table #410: started
+2025/12/09-13:13:24.481 8430 Level-0 table #410: 252 bytes OK
+2025/12/09-13:13:24.483 8430 Delete type=2 #405
+2025/12/09-13:13:24.483 8430 Delete type=0 #406
+2025/12/09-13:13:24.483 8430 Manual compaction at level-0 from '\x00\x1d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.483 8430 Manual compaction at level-1 from '\x00\x1d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1d\x00\x00\x05' @ 1805343 : 0
+2025/12/09-13:13:24.483 8430 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.488 8430 Generated table #411@1: 3962 keys, 76474 bytes
+2025/12/09-13:13:24.488 8430 Compacted 1@1 + 1@2 files => 76474 bytes
+2025/12/09-13:13:24.489 8430 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.490 8430 Delete type=2 #410
+2025/12/09-13:13:24.490 8430 Manual compaction at level-1 from '\x00\x1d\x00\x00\x05' @ 1805343 : 0 .. '\x00\x1e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.491 8430 Level-0 table #413: started
+2025/12/09-13:13:24.501 8430 Level-0 table #413: 635 bytes OK
+2025/12/09-13:13:24.503 8430 Delete type=2 #408
+2025/12/09-13:13:24.503 8430 Delete type=0 #409
+2025/12/09-13:13:24.503 8430 Manual compaction at level-0 from '\x00\x1e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.503 8430 Manual compaction at level-1 from '\x00\x1e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1e\x00\x00\x05' @ 1805395 : 0
+2025/12/09-13:13:24.503 8430 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.511 8430 Generated table #414@1: 3910 keys, 74450 bytes
+2025/12/09-13:13:24.511 8430 Compacted 1@1 + 1@2 files => 74450 bytes
+2025/12/09-13:13:24.513 8430 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.513 8430 Delete type=2 #413
+2025/12/09-13:13:24.513 8430 Manual compaction at level-1 from '\x00\x1e\x00\x00\x05' @ 1805395 : 0 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.514 7b20 Level-0 table #416: started
+2025/12/09-13:13:24.525 7b20 Level-0 table #416: 252 bytes OK
+2025/12/09-13:13:24.526 7b20 Delete type=2 #411
+2025/12/09-13:13:24.526 7b20 Delete type=0 #412
+2025/12/09-13:13:24.527 7b20 Manual compaction at level-0 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.527 7b20 Manual compaction at level-1 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at '\x00\x1f\x00\x00\x05' @ 1805401 : 0
+2025/12/09-13:13:24.527 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.534 7b20 Generated table #417@1: 3904 keys, 74393 bytes
+2025/12/09-13:13:24.534 7b20 Compacted 1@1 + 1@2 files => 74393 bytes
+2025/12/09-13:13:24.535 7b20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.535 7b20 Delete type=2 #416
+2025/12/09-13:13:24.535 7b20 Manual compaction at level-1 from '\x00\x1f\x00\x00\x05' @ 1805401 : 0 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.536 8430 Level-0 table #419: started
+2025/12/09-13:13:24.547 8430 Level-0 table #419: 252 bytes OK
+2025/12/09-13:13:24.549 8430 Delete type=2 #414
+2025/12/09-13:13:24.549 8430 Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.549 8430 Manual compaction at level-1 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at '\x00 \x00\x00\x05' @ 1805407 : 0
+2025/12/09-13:13:24.549 8430 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.556 8430 Generated table #420@1: 3898 keys, 74860 bytes
+2025/12/09-13:13:24.556 8430 Compacted 1@1 + 1@2 files => 74860 bytes
+2025/12/09-13:13:24.557 8430 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.557 8430 Delete type=2 #419
+2025/12/09-13:13:24.558 8430 Manual compaction at level-1 from '\x00 \x00\x00\x05' @ 1805407 : 0 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.558 6768 Level-0 table #422: started
+2025/12/09-13:13:24.570 6768 Level-0 table #422: 252 bytes OK
+2025/12/09-13:13:24.571 6768 Delete type=2 #417
+2025/12/09-13:13:24.571 6768 Delete type=0 #418
+2025/12/09-13:13:24.571 6768 Manual compaction at level-0 from '\x00$\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00%\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.571 6768 Manual compaction at level-1 from '\x00$\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00%\x00\x00\x00' @ 0 : 0; will stop at '\x00$\x00\x00\x05' @ 1805413 : 0
+2025/12/09-13:13:24.571 6768 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.577 6768 Generated table #423@1: 3892 keys, 74722 bytes
+2025/12/09-13:13:24.577 6768 Compacted 1@1 + 1@2 files => 74722 bytes
+2025/12/09-13:13:24.578 6768 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.579 6768 Delete type=2 #422
+2025/12/09-13:13:24.579 6768 Manual compaction at level-1 from '\x00$\x00\x00\x05' @ 1805413 : 0 .. '\x00%\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.579 8430 Level-0 table #425: started
+2025/12/09-13:13:24.589 8430 Level-0 table #425: 253 bytes OK
+2025/12/09-13:13:24.590 8430 Delete type=2 #420
+2025/12/09-13:13:24.590 8430 Delete type=0 #421
+2025/12/09-13:13:24.590 8430 Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.591 8430 Manual compaction at level-1 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at '\x00"\x00\x00\x05' @ 1805419 : 0
+2025/12/09-13:13:24.591 8430 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.597 8430 Generated table #426@1: 3886 keys, 74658 bytes
+2025/12/09-13:13:24.597 8430 Compacted 1@1 + 1@2 files => 74658 bytes
+2025/12/09-13:13:24.598 8430 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.598 8430 Delete type=2 #425
+2025/12/09-13:13:24.599 8430 Manual compaction at level-1 from '\x00"\x00\x00\x05' @ 1805419 : 0 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.599 7b20 Level-0 table #428: started
+2025/12/09-13:13:24.609 7b20 Level-0 table #428: 252 bytes OK
+2025/12/09-13:13:24.610 7b20 Delete type=2 #423
+2025/12/09-13:13:24.610 7b20 Delete type=0 #424
+2025/12/09-13:13:24.611 7b20 Manual compaction at level-0 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.611 7b20 Manual compaction at level-1 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at '\x00#\x00\x00\x05' @ 1805425 : 0
+2025/12/09-13:13:24.611 7b20 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.616 7b20 Generated table #429@1: 3880 keys, 74567 bytes
+2025/12/09-13:13:24.616 7b20 Compacted 1@1 + 1@2 files => 74567 bytes
+2025/12/09-13:13:24.617 7b20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.617 7b20 Delete type=2 #428
+2025/12/09-13:13:24.618 7b20 Manual compaction at level-1 from '\x00#\x00\x00\x05' @ 1805425 : 0 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.618 8430 Level-0 table #431: started
+2025/12/09-13:13:24.629 8430 Level-0 table #431: 252 bytes OK
+2025/12/09-13:13:24.630 8430 Delete type=2 #426
+2025/12/09-13:13:24.630 8430 Delete type=0 #427
+2025/12/09-13:13:24.631 8430 Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.631 8430 Manual compaction at level-1 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at '\x00!\x00\x00\x05' @ 1805431 : 0
+2025/12/09-13:13:24.631 8430 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.637 8430 Generated table #432@1: 3874 keys, 74412 bytes
+2025/12/09-13:13:24.638 8430 Compacted 1@1 + 1@2 files => 74412 bytes
+2025/12/09-13:13:24.639 8430 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.639 8430 Delete type=2 #431
+2025/12/09-13:13:24.639 8430 Manual compaction at level-1 from '\x00!\x00\x00\x05' @ 1805431 : 0 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.640 8430 Level-0 table #434: started
+2025/12/09-13:13:24.649 8430 Level-0 table #434: 1349 bytes OK
+2025/12/09-13:13:24.650 8430 Delete type=2 #429
+2025/12/09-13:13:24.650 8430 Delete type=0 #430
+2025/12/09-13:13:24.651 8430 Manual compaction at level-0 from '\x00(\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/09-13:13:24.651 8430 Manual compaction at level-1 from '\x00(\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at '\x00(\x00\x00\x05' @ 1805568 : 0
+2025/12/09-13:13:24.651 8430 Compacting 1@1 + 1@2 files
+2025/12/09-13:13:24.658 8430 Generated table #435@1: 3737 keys, 72240 bytes
+2025/12/09-13:13:24.658 8430 Compacted 1@1 + 1@2 files => 72240 bytes
+2025/12/09-13:13:24.659 8430 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/09-13:13:24.659 8430 Delete type=2 #434
+2025/12/09-13:13:24.659 8430 Manual compaction at level-1 from '\x00(\x00\x00\x05' @ 1805568 : 0 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at (end)
