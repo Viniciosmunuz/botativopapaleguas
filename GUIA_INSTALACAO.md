@@ -1,4 +1,4 @@
-# 🚀 GUIA DE INSTALAÇÃO - BOT PAPALEGUAS
+t# 🚀 GUIA DE INSTALAÇÃO - BOT PAPALEGUAS
 
 ## 📋 Índice
 1. [Pré-requisitos](#pré-requisitos)

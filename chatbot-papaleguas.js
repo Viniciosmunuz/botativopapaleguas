@@ -1,28 +1,45 @@
 require('dotenv').config();
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = require('whatsapp-web.js');
+const fs = require('fs');
 
 // ═════════════════════════════════════════════════════════════════════
 // 🍽️ BOT PAPALEGUAS - RESTAURANTE E LANCHONETE
 // ═════════════════════════════════════════════════════════════════════
 
+// Detectar Chrome/Edge instalado no Windows
+const getChromeExecutable = () => {
+    const possiblePaths = [
+        'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+        'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+        'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
+        'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+    ];
+    
+    for (const chromePath of possiblePaths) {
+        if (fs.existsSync(chromePath)) {
+            console.log(`✅ Chrome/Edge encontrado!`);
+            return chromePath;
+        }
+    }
+    return undefined;
+};
+
 const isRailway = process.env.RAILWAY_ENVIRONMENT_NAME || false;
+const chromeExecutable = getChromeExecutable();
 
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
         headless: true,
-        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
+        executablePath: chromeExecutable,
         args: [
             '--no-sandbox',
             '--disable-dev-shm-usage',
             '--disable-gpu',
-            '--disable-web-resources',
-            '--disable-sync',
-            '--disable-plugins',
-            '--disable-images',
-            '--single-process',
-            '--no-first-run'
+            '--no-first-run',
+            '--disable-background-networking',
+            '--disable-default-apps'
         ]
     }
 });
