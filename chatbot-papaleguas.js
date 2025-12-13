@@ -36,7 +36,7 @@ console.log('🍽️ BOT PAPALEGUAS iniciando...');
 
 // Mensagens do bot
 const RESPONSES = {
-    BOAS_VINDAS: `Olá! Bem-vindo(a) ao Restaurante PAPALEGUAS 🍽️\n\n📋 *Ver Cardápio:* ${CARDAPIO_LINK}\n⏰ *Horário:* 17:30 - 23:00 (todos os dias)\n💰 *Taxa de Entrega:* R$ 3,00\n\n1️⃣ Fazer um Pedido\n2️⃣ Falar com Atendente`,
+    BOAS_VINDAS: `Olá! Bem-vindo(a) ao Restaurante PAPALEGUAS 🍽️\n\n📋 *CARDÁPIO:* Clique aqui para ver o menu\n${CARDAPIO_LINK}\n\n⏰ *Horário:* 17:30 - 23:00 (todos os dias)\n💰 *Taxa de Entrega:* R$ 3,00\n\n1️⃣ Fazer um Pedido\n2️⃣ Falar com Atendente`,
     
     PEDIDO_TUDO_JUNTO: '⚠️ *Envie seu pedido em UMA MENSAGEM:*\n\n🍽️ O que você quer\n📍 Endereço (rua, número)\n🏘️ Ponto de Referência\n💳 Pagamento (Pix / Dinheiro / Cartão)',
     
