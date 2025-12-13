@@ -76,27 +76,13 @@ client.on('qr', qr => {
     console.log('═'.repeat(70) + '\n');
 });
 
-client.on('authenticated', () => {
-    console.log('🔐 Autenticado com sucesso!');
-});
-
-client.on('auth_failure', msg => {
-    console.error('❌ Falha na autenticação:', msg);
-});
-
 client.on('ready', () => {
     console.log('✅ Bot conectado e pronto para receber pedidos!');
     console.log(`⏰ Horário: 17:30 - 23:00`);
 });
 
-client.on('disconnected', (reason) => {
-    console.log('❌ Bot desconectado:', reason);
-    console.log('🔄 Tentando reconectar...');
-});
-
 client.on('error', error => {
     console.error('❌ Erro:', error.message);
-    console.error('Stack:', error.stack);
 });
 
 console.log('\n🔄 Inicializando cliente WhatsApp...\n');
