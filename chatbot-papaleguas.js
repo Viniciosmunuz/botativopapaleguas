@@ -6,13 +6,23 @@ const { Client, LocalAuth } = require('whatsapp-web.js');
 // 🍽️ BOT PAPALEGUAS - RESTAURANTE E LANCHONETE
 // ═════════════════════════════════════════════════════════════════════
 
+const isRailway = process.env.RAILWAY_ENVIRONMENT_NAME || false;
+
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
         headless: true,
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
         args: [
             '--no-sandbox',
-            '--disable-dev-shm-usage'
+            '--disable-dev-shm-usage',
+            '--disable-gpu',
+            '--disable-web-resources',
+            '--disable-sync',
+            '--disable-plugins',
+            '--disable-images',
+            '--single-process',
+            '--no-first-run'
         ]
     }
 });
@@ -33,6 +43,8 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 const isInitialTrigger = text => /(oi|ola|olá|menu|boa tarde|boa noite|bom dia|oi tudo|olá tudo|e aí|oq|start|help)/i.test(text);
 
 console.log('🍽️ BOT PAPALEGUAS iniciando...');
+console.log(`🌍 Ambiente: ${isRailway ? 'RAILWAY' : 'LOCAL'}`);
+console.log(`📝 Puppeteer Path: ${process.env.PUPPETEER_EXECUTABLE_PATH || 'AUTO (Sistema)'}`);
 
 // Mensagens do bot
 const RESPONSES = {
@@ -64,16 +76,34 @@ client.on('qr', qr => {
     console.log('═'.repeat(70) + '\n');
 });
 
+client.on('authenticated', () => {
+    console.log('🔐 Autenticado com sucesso!');
+});
+
+client.on('auth_failure', msg => {
+    console.error('❌ Falha na autenticação:', msg);
+});
+
 client.on('ready', () => {
     console.log('✅ Bot conectado e pronto para receber pedidos!');
+    console.log(`⏰ Horário: 17:30 - 23:00`);
+});
+
+client.on('disconnected', (reason) => {
+    console.log('❌ Bot desconectado:', reason);
+    console.log('🔄 Tentando reconectar...');
 });
 
 client.on('error', error => {
     console.error('❌ Erro:', error.message);
+    console.error('Stack:', error.stack);
 });
 
+console.log('\n🔄 Inicializando cliente WhatsApp...\n');
+
 client.initialize().catch(error => {
-    console.error('❌ Falha ao inicializar:', error.message);
+    console.error('❌ Falha crítica ao inicializar:', error.message);
+    console.error('Stack:', error.stack);
     process.exit(1);
 });
 
